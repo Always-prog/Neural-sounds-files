@@ -12,6 +12,8 @@ class Network(nn.Module):
             self.activate = nn.ReLU()
         elif activate == "Sigmoid":
             self.activate = nn.Sigmoid()
+        elif activate == "Tanh":
+            self.activate = nn.Tanh()
         self.layers = nn.Sequential()
         plane_index = 0
         layer_index = 0
@@ -37,12 +39,9 @@ class Network(nn.Module):
         self.loss = self.criterion(self.output_from_net, must_outputs)
         self.loss.backward()
         self.optimizer.step()
-        return self.loss
+        return self.output_from_net
+    def save(self, path):
+        tc.save(self.layers,path)
+    def load(self, path: str):
+        self.layers = tc.load(path)
 
-
-
-
-
-Net = Network(net_plane=[1,10,5,1])
-print(Net)
-print(Net.forward(inputs=tc.rand(1,1)))
