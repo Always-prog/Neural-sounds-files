@@ -44,10 +44,6 @@ def get_result(array_result: list):
             arr_i[i-1],arr_i[i] = arr_i[i],arr_i[i-1]
     return arr_i[len(arr_i)-1][0]
 
-def tratment_sound(sound: bytes):
-    chroma_stft = librosa.feature.chroma_cqt(librosa.amplitude_to_db(np.array(sound)))
-    chroma_stft_normalized = chroma_stft.reshape(len(chroma_stft) * len(chroma_stft[0]))
-    return chroma_stft_normalized
 
 
 firks = ["./sounds/train_sounds/firk/" + i for i in listdir("sounds/train_sounds/firk")]
@@ -143,40 +139,36 @@ random_list(test_sounds)
 random_list(training_sounds)
 random_list(test_sounds)
 
-SoundNet_errors = []
-SoundNet = Network([72,5000,1000,500,100,4],activate="Tanh",optimizer_lr=0.001)
-for i in range(20):
-    for sounds_dict in training_sounds:
-        sounds = split_sound(librosa.load(sounds_dict["path"])[0], count_split=3000)
-        outputs = []
-        for sound in sounds:
-            sound_tratment = tratment_sound(sound=sound)
-            output = SoundNet.training_net(inputs=torch.FloatTensor(sound_tratment),must_outputs=torch.FloatTensor(sounds_dict["must_output"]))
-            print(output)
-            outputs.append(output)
-            SoundNet_errors.append(SoundNet.loss)
-        print("--------",sounds_dict["name"],"--------")
-        for j in outputs:
-            print(make_result(j))
-plt.plot(SoundNet_errors)
-plt.show()
-SoundNet.save("remake_funciton_sound")
+def tratment_sound(sound: bytes):
+    chroma_stft = librosa.feature.chroma_cqt(librosa.amplitude_to_db(np.array(sound)))
+    chroma_stft_normalized = chroma_stft.reshape(len(chroma_stft) * len(chroma_stft[0]))
+    return chroma_stft_normalized
 
 
-
-for sounds_dict in test_sounds:
+for sounds_dict in training_sounds:
     sounds = split_sound(librosa.load(sounds_dict["path"])[0], count_split=3000)
-    outputs = []
     for sound in sounds:
-        chroma_stft = librosa.feature.chroma_stft(y=np.array(sound))
-        chroma_stft_normalized = chroma_stft.reshape(len(chroma_stft) * len(chroma_stft[0]))
-        output = SoundNet.forward(inputs=torch.FloatTensor(chroma_stft_normalized))
-        outputs.append(make_result(output))
-    print("---")
-    print("Sound: ",sounds_dict["name"])
-    print("Network think: ",get_result(outputs))
+        sound_normalize = tratment_sound(sound=sound)
+        plt.plot(sound_normalize)
+        plt.xlabel(sounds_dict["name"])
+        plt.show()
 
 
 
 
-
+# for sounds_dict in test_sounds:
+#     sounds = split_sound(librosa.load(sounds_dict["path"])[0], count_split=3000)
+#     outputs = []
+#     for sound in sounds:
+#         chroma_stft = librosa.feature.chroma_stft(y=np.array(sound))
+#         chroma_stft_normalized = chroma_stft.reshape(len(chroma_stft) * len(chroma_stft[0]))
+#         output = SoundNet.forward(inputs=torch.FloatTensor(chroma_stft_normalized))
+#         outputs.append(make_result(output))
+#     print("---")
+#     print("Sound: ",sounds_dict["name"])
+#     print("Network think: ",get_result(outputs))
+#
+#
+#
+#
+#

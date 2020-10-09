@@ -5,7 +5,7 @@ import torch.optim as optim
 
 
 class Network(nn.Module):
-    def __init__(self, net_plane: list,activate: str = "Sigmoid", reduction: str = "mean", optimizer_momentum: float = 0.9,optimizer_lr: float = 0.01):
+    def __init__(self, net_plane: list,activate: str = "Sigmoid", reduction: str = "mean", optimizer_lr: float = 0.01):
         super(Network,self).__init__()
         self.criterion = nn.MSELoss(reduction=reduction)
         if activate == "ReLU":
@@ -24,6 +24,24 @@ class Network(nn.Module):
             self.activate = self.activate = nn.Hardtanh()
         elif activate == "Hardswish":
             self.activate = self.activate = nn.Hardswish()
+        elif activate == "Softplus":
+            self.activate = self.activate = nn.Softplus()
+        elif activate == "Softshrink":
+            self.activate = self.activate = nn.Softplus()
+        elif activate == "Tanhshrink":
+            self.activate = self.activate = nn.Tanhshrink()
+        elif activate == "GELU":
+            self.activate = self.activate = nn.GELU()
+        elif activate == "CELU":
+            self.activate = self.activate = nn.CELU()
+        elif activate == "SELU":
+            self.activate = self.activate = nn.SELU()
+        elif activate == "ReLU6":
+            self.activate = self.activate = nn.ReLU6()
+        elif activate == "PReLU":
+            self.activate = self.activate = nn.PReLU()
+        elif activate == "LogSigmoid":
+            self.activate = self.activate = nn.LogSigmoid()
         self.layers = nn.Sequential()
         plane_index = 0
         layer_index = 0
