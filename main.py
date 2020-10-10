@@ -59,7 +59,6 @@ others = ["./sounds/train_sounds/other/" + i for i in listdir("sounds/train_soun
 others_test = ["./sounds/test_sounds/other/" + i for i in listdir("sounds/test_sounds/other")]
 
 
-
 training_sounds = []
 for path_to_sound in range(len(firks)):
     try:
@@ -124,7 +123,7 @@ random_list(training_sounds)
 random_list(test_sounds)
 
 SoundNet_errors = []
-SoundNet = Network([72,5000,2000,500,100,3],activate="LeakyReLU",optimizer_lr=0.001)
+SoundNet = Network([72,5000,2000,500,100,3],activate="LogSigmoid",optimizer_lr=0.001)
 for i in range(10):
     for sounds_dict in training_sounds:
         sounds = split_sound(librosa.load(sounds_dict["path"])[0], count_split=3000)
@@ -140,7 +139,7 @@ for i in range(10):
             print(make_result(j))
 plt.plot(SoundNet_errors)
 plt.show()
-SoundNet.save("delete_other_leakyrelu")
+SoundNet.save("delete_other_new")
 
 
 
