@@ -42,6 +42,8 @@ class Network(nn.Module):
             self.activate = self.activate = nn.PReLU()
         elif activate == "LogSigmoid":
             self.activate = self.activate = nn.LogSigmoid()
+        elif activate == "Softmax":
+            self.activate = self.activate = nn.Softmax()
         self.layers = nn.Sequential()
         plane_index = 0
         layer_index = 0

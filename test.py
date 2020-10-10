@@ -87,15 +87,15 @@ for path_to_sound in range(len(spaces)):
         })
     except IndexError:
         continue
-for path_to_sound in range(len(others)):
-    try:
-        training_sounds.append({
-            "name": "other",
-            "path": others[path_to_sound],
-            "must_output": [0.0, 0.0, 0.0, 1.0]
-        })
-    except IndexError:
-        continue
+# for path_to_sound in range(len(others)):
+#     try:
+#         training_sounds.append({
+#             "name": "other",
+#             "path": others[path_to_sound],
+#             "must_output": [0.0, 0.0, 0.0, 1.0]
+#         })
+#     except IndexError:
+#         continue
 
 test_sounds = []
 for path_to_sound in range(len(firks_test)):
@@ -124,32 +124,35 @@ for path_to_sound in range(len(space_test)):
             "must_output":[0.0, 0.0, 1.0, 0.0]
         })
     except IndexError:
-        continue
-for path_to_sound in range(len(others_test)):
-    try:
-        test_sounds.append({
-            "name": "other",
-            "path": others_test[path_to_sound],
-            "must_output": [0.0, 0.0, 0.0, 1.0]
-        })
-    except IndexError:
-        continue
+         continue
+# for path_to_sound in range(len(others_test)):
+#     try:
+#         test_sounds.append({
+#             "name": "other",
+#             "path": others_test[path_to_sound],
+#             "must_output": [0.0, 0.0, 0.0, 1.0]
+#         })
+#     except IndexError:
+#         continue
 random_list(training_sounds)#rearrange lists
 random_list(test_sounds)
 random_list(training_sounds)
 random_list(test_sounds)
 
+
+
 def tratment_sound(sound: bytes):
-    chroma_stft = librosa.feature.chroma_cqt(librosa.amplitude_to_db(np.array(sound)))
-    chroma_stft_normalized = chroma_stft.reshape(len(chroma_stft) * len(chroma_stft[0]))
-    return chroma_stft_normalized
+    new_sound = librosa.feature.mfcc(np.array(sound))
+    new_sound = new_sound.reshape(len(new_sound)*len(new_sound[0]))
+    return new_sound/1500
+
 
 
 for sounds_dict in training_sounds:
     sounds = split_sound(librosa.load(sounds_dict["path"])[0], count_split=3000)
     for sound in sounds:
-        sound_normalize = tratment_sound(sound=sound)
-        plt.plot(sound_normalize)
+        sound_output = tratment_sound(sound=np.array(sound))
+        plt.plot(sound_output)
         plt.xlabel(sounds_dict["name"])
         plt.show()
 

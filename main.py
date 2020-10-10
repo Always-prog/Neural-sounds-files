@@ -13,7 +13,6 @@ result_dict = {
     0: "hmm",
     1: "firk",
     2: "space",
-    3: "other"
 }
 def split_sound(sound,count_split: int = 3000):
     splited = []
@@ -45,9 +44,9 @@ def get_result(array_result: list):
     return arr_i[len(arr_i)-1][0]
 
 def tratment_sound(sound: bytes):
-    chroma_stft = librosa.feature.chroma_cqt(librosa.amplitude_to_db(np.array(sound)))
-    chroma_stft_normalized = chroma_stft.reshape(len(chroma_stft) * len(chroma_stft[0]))
-    return chroma_stft_normalized
+    new_sound = librosa.feature.chroma_stft(np.array(sound))
+    new_sound = new_sound.reshape(len(new_sound) * len(new_sound[0]))
+    return new_sound
 
 
 firks = ["./sounds/train_sounds/firk/" + i for i in listdir("sounds/train_sounds/firk")]
@@ -67,7 +66,7 @@ for path_to_sound in range(len(firks)):
         training_sounds.append({
             "name":"firk",
             "path": firks[path_to_sound],
-            "must_output":[0.0, 1.0, 0.0, 0.0]
+            "must_output":[0.0, 1.0, 0.0]
         })
     except IndexError:
         continue
@@ -77,7 +76,7 @@ for path_to_sound in range(len(hmms)):
         training_sounds.append({
             "name":"hmm",
             "path": hmms[path_to_sound],
-            "must_output": [1.0, 0.0, 0.0, 0.0]
+            "must_output": [1.0, 0.0, 0.0]
         })
     except IndexError:
         continue
@@ -87,27 +86,17 @@ for path_to_sound in range(len(spaces)):
         training_sounds.append({
             "name": "space",
             "path": spaces[path_to_sound],
-            "must_output": [0.0, 0.0, 1.0, 0.0]
+            "must_output": [0.0, 0.0, 1.0]
         })
     except IndexError:
         continue
-for path_to_sound in range(len(others)):
-    try:
-        training_sounds.append({
-            "name": "other",
-            "path": others[path_to_sound],
-            "must_output": [0.0, 0.0, 0.0, 1.0]
-        })
-    except IndexError:
-        continue
-
 test_sounds = []
 for path_to_sound in range(len(firks_test)):
     try:
         test_sounds.append({
             "name":"firk",
             "path": firks_test[path_to_sound],
-            "must_output":[0.0, 1.0, 0.0, 0.0]
+            "must_output":[0.0, 1.0, 0.0]
         })
     except IndexError:
         continue
@@ -116,7 +105,7 @@ for path_to_sound in range(len(firks_test)):
         test_sounds.append({
             "name":"hmm",
             "path": hmms_test[path_to_sound],
-            "must_output":[1.0, 0.0, 0.0, 0.0]
+            "must_output":[1.0, 0.0, 0.0]
         })
     except IndexError:
         continue
@@ -125,16 +114,7 @@ for path_to_sound in range(len(space_test)):
         test_sounds.append({
             "name":"space",
             "path": space_test[path_to_sound],
-            "must_output":[0.0, 0.0, 1.0, 0.0]
-        })
-    except IndexError:
-        continue
-for path_to_sound in range(len(others_test)):
-    try:
-        test_sounds.append({
-            "name": "other",
-            "path": others_test[path_to_sound],
-            "must_output": [0.0, 0.0, 0.0, 1.0]
+            "must_output":[0.0, 0.0, 1.0]
         })
     except IndexError:
         continue
@@ -144,8 +124,8 @@ random_list(training_sounds)
 random_list(test_sounds)
 
 SoundNet_errors = []
-SoundNet = Network([72,5000,1000,500,100,4],activate="Tanh",optimizer_lr=0.001)
-for i in range(20):
+SoundNet = Network([72,5000,2000,500,100,3],activate="LeakyReLU",optimizer_lr=0.001)
+for i in range(10):
     for sounds_dict in training_sounds:
         sounds = split_sound(librosa.load(sounds_dict["path"])[0], count_split=3000)
         outputs = []
@@ -160,7 +140,7 @@ for i in range(20):
             print(make_result(j))
 plt.plot(SoundNet_errors)
 plt.show()
-SoundNet.save("remake_funciton_sound")
+SoundNet.save("delete_other_leakyrelu")
 
 
 
@@ -168,9 +148,8 @@ for sounds_dict in test_sounds:
     sounds = split_sound(librosa.load(sounds_dict["path"])[0], count_split=3000)
     outputs = []
     for sound in sounds:
-        chroma_stft = librosa.feature.chroma_stft(y=np.array(sound))
-        chroma_stft_normalized = chroma_stft.reshape(len(chroma_stft) * len(chroma_stft[0]))
-        output = SoundNet.forward(inputs=torch.FloatTensor(chroma_stft_normalized))
+        sound_tratment = tratment_sound(sound=sound)
+        output = SoundNet.forward(inputs=torch.FloatTensor(sound_tratment))
         outputs.append(make_result(output))
     print("---")
     print("Sound: ",sounds_dict["name"])
