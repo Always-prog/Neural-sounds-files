@@ -123,8 +123,8 @@ random_list(training_sounds)
 random_list(test_sounds)
 
 SoundNet_errors = []
-SoundNet = Network([72,5000,2000,500,100,3],activate="LogSigmoid",optimizer_lr=0.001)
-for i in range(10):
+SoundNet = Network([72,5000,2000,500,100,3],activate="PReLU",optimizer_lr=0.001)
+for i in range(30):
     for sounds_dict in training_sounds:
         sounds = split_sound(librosa.load(sounds_dict["path"])[0], count_split=3000)
         outputs = []
