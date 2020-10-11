@@ -2,6 +2,7 @@ import librosa
 from matplotlib import pyplot as plt
 from os import listdir
 from Network.net import Network
+from Network.normalize_list import resize_list
 import torch
 import librosa.display
 import numpy as np
@@ -123,23 +124,27 @@ random_list(training_sounds)
 random_list(test_sounds)
 
 SoundNet_errors = []
-SoundNet = Network([72,5000,2000,500,100,3],activate="PReLU",optimizer_lr=0.001)
-for i in range(30):
+SoundNet = Network([72,5000,2000,500,100,3],activate="Tanh",optimizer_lr=0.001)
+Sound_by_features = Network([16,200,100,3],activate="Tanh",optimizer_lr=0.01)
+resizer = resize_list()
+for repeat in range(10):
     for sounds_dict in training_sounds:
         sounds = split_sound(librosa.load(sounds_dict["path"])[0], count_split=3000)
         outputs = []
         for sound in sounds:
-            sound_tratment = tratment_sound(sound=sound)
-            output = SoundNet.training_net(inputs=torch.FloatTensor(sound_tratment),must_outputs=torch.FloatTensor(sounds_dict["must_output"]))
-            print(output)
+            output = SoundNet.training_net(inputs=torch.FloatTensor(tratment_sound(sound=sound)),
+                                           must_outputs=torch.FloatTensor(sounds_dict["must_output"]))
             outputs.append(output)
-            SoundNet_errors.append(SoundNet.loss)
-        print("--------",sounds_dict["name"],"--------")
-        for j in outputs:
-            print(make_result(j))
+
+        output = Sound_by_features.training_net(inputs=torch.FloatTensor(resizer.resize(lst=[j.detach().numpy().tolist()[0] for j in outputs],
+                                                                                        resize_to=16)),
+                                          must_outputs=torch.FloatTensor(sounds_dict["must_output"]))
+        SoundNet_errors.append(Sound_by_features.loss)
+        print("Sound: ",sounds_dict["name"])
+        print("Network think: ",make_result(output))
 plt.plot(SoundNet_errors)
 plt.show()
-SoundNet.save("delete_other_new")
+SoundNet.save("delete_other_2_nets")
 
 
 
@@ -150,6 +155,8 @@ for sounds_dict in test_sounds:
         sound_tratment = tratment_sound(sound=sound)
         output = SoundNet.forward(inputs=torch.FloatTensor(sound_tratment))
         outputs.append(make_result(output))
+        output = Sound_by_features.training_net(inputs=torch.FloatTensor(outputs),
+                                          must_outputs=sounds_dict["must_output"])
     print("---")
     print("Sound: ",sounds_dict["name"])
     print("Network think: ",get_result(outputs))
