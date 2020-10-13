@@ -1,3 +1,5 @@
+"""This file is for normalize list funciton (reshape list)"""
+print("import normalize list/reshape library")
 from PIL import Image
 
 class resize_list():
