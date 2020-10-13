@@ -1,7 +1,5 @@
 from PIL import Image
 
-
-
 class resize_list():
     def __init__(self):
         self.lets = {}
@@ -33,10 +31,3 @@ class resize_list():
         for pixel in range(resize_to):
             self.lst_new.append(self.lets_reverse[img_list.getpixel((pixel,0))[2]])
         return self.lst_new
-
-resizer = resize_list()
-list_new = resizer.resize(lst=\
-    ["space","space", "firk", "firk", 
-    "firk","hmm", "firk","space", "hmm", 
-    "hmm"], resize_to=16)
-print(list_new)
