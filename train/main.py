@@ -29,7 +29,7 @@ def get_result(array_result: list):
 first_network = Network([72,5000,2000,1000,100,3],activate="Tanh",optimizer_lr=0.0025)#this network is for get features in sound
 second_network = Network([16,400,200,100,50,3],activate="Tanh",optimizer_lr=0.0025)#this network is for get sound name by feaures first network
 resizer = resize_list()
-for repeat in range(1):
+for repeat in range(0):
     for sounds_dict in net_config["training"]["train_data"]:
         sounds = split_sound(librosa.load(sounds_dict["path"])[0], count_split=3000)
         outputs = []
@@ -59,7 +59,7 @@ for sounds_dict in net_config["test"]["test_data"]:
             outputs.append(output)
     print("---")
     print("Sound: ",sounds_dict["name"])
-    print("sourcelib think: ",get_result(outputs))
+    print("sourcelib think: ",make_result(get_result(outputs)))
 
 
 

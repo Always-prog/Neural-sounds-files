@@ -56,38 +56,47 @@ for snd_now in net_config["training"]["sounds"]:
         if description["must_output"][out_neural_index] == 1.0:
             net_config["netout"].update({int(out_neural_index):description["name"]})
 print("set network training data")
-net_config["training"]["train_data"] = [
+net_config["training"]["train_data"] = \
+[
     [{"path": i,
      "name": net_config["training"]["sounds"]["firk"]["name"],
      "must_output": net_config["training"]["sounds"]["firk"]["must_output"]}
-    for i in net_config["training"]["sounds"]["firk"]["paths"]]]\
+    for i in net_config["training"]["sounds"]["firk"]["paths"]]\
                            +\
     [{"path": i,
      "name": net_config["training"]["sounds"]["hmm"]["name"],
      "must_output": net_config["training"]["sounds"]["hmm"]["must_output"]}
     for i in net_config["training"]["sounds"]["hmm"]["paths"]]\
                           + \
-    [{"path": i,
-      "name": net_config["training"]["sounds"]["space"]["name"],
-      "must_output": net_config["training"]["sounds"]["space"]["must_output"]}
+    [
+    {"path": i,
+    "name": net_config["training"]["sounds"]["space"]["name"],
+    "must_output": net_config["training"]["sounds"]["space"]["must_output"]}
+
      for i in net_config["training"]["sounds"]["space"]["paths"]]
+][0]
+
+
 print("set network test data")
-net_config["test"]["test_data"] = [
+net_config["test"]["test_data"] = \
+[
     [{"path": i,
      "name": net_config["test"]["sounds"]["firk"]["name"],
      "must_output": net_config["test"]["sounds"]["firk"]["must_output"]}
-    for i in net_config["test"]["sounds"]["firk"]["paths"]]]\
+    for i in net_config["test"]["sounds"]["firk"]["paths"]]\
                            +\
     [{"path": i,
      "name": net_config["test"]["sounds"]["hmm"]["name"],
      "must_output": net_config["test"]["sounds"]["hmm"]["must_output"]}
     for i in net_config["test"]["sounds"]["hmm"]["paths"]]\
                           + \
-    [{"path": i,
-      "name": net_config["test"]["sounds"]["space"]["name"],
-      "must_output": net_config["test"]["sounds"]["space"]["must_output"]}
-     for i in net_config["test"]["sounds"]["space"]["paths"]]
+    [
+    {"path": i,
+    "name": net_config["test"]["sounds"]["space"]["name"],
+    "must_output": net_config["test"]["sounds"]["space"]["must_output"]}
 
+     for i in net_config["test"]["sounds"]["space"]["paths"]]
+][0]
 """Mix training data"""
 randomize_list(net_config["training"]["train_data"])
 randomize_list(net_config["training"]["train_data"])
@@ -104,5 +113,4 @@ randomize_list(net_config["test"]["test_data"])
 randomize_list(net_config["test"]["test_data"])
 
 print("Successfully upload config")
-
 
