@@ -2,6 +2,7 @@
 print("make config...")
 from os import listdir
 from random import shuffle as randomize_list
+from sourcelib.normalize_list import lists;lists = lists()
 print("create config value")
 net_config = {
     "training": {
@@ -98,19 +99,19 @@ net_config["test"]["test_data"] = \
      for i in net_config["test"]["sounds"]["space"]["paths"]]
 ][0]
 """Mix training data"""
-randomize_list(net_config["training"]["train_data"])
-randomize_list(net_config["training"]["train_data"])
-randomize_list(net_config["training"]["train_data"])
-randomize_list(net_config["training"]["train_data"])
-randomize_list(net_config["training"]["train_data"])
-randomize_list(net_config["training"]["train_data"])
+net_config["training"]["train_data"] = lists.connect_lists([
+    [i for i in net_config["training"]["train_data"] if i["name"] == "firk"],
+    [i for i in net_config["training"]["train_data"] if i["name"] == "hmm"],
+    [i for i in net_config["training"]["train_data"] if i["name"] == "space"],
+])
+
 """Mix test data"""
-randomize_list(net_config["test"]["test_data"])
-randomize_list(net_config["test"]["test_data"])
-randomize_list(net_config["test"]["test_data"])
-randomize_list(net_config["test"]["test_data"])
-randomize_list(net_config["test"]["test_data"])
-randomize_list(net_config["test"]["test_data"])
+net_config["training"]["test_data"] = lists.connect_lists([
+    [i for i in net_config["test"]["test_data"] if i["name"] == "firk"],
+    [i for i in net_config["test"]["test_data"] if i["name"] == "hmm"],
+    [i for i in net_config["test"]["test_data"] if i["name"] == "space"],
+])
+
 
 print("Successfully upload config")
 

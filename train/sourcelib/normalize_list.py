@@ -2,7 +2,7 @@
 print("import normalize list/reshape library")
 from PIL import Image
 
-class resize_list():
+class lists():
     def __init__(self):
         self.lets = {}
         self.index = 0
@@ -33,3 +33,17 @@ class resize_list():
         for pixel in range(resize_to):
             self.lst_new.append(self.lets_reverse[img_list.getpixel((pixel,0))[2]])
         return self.lst_new
+
+    def connect_lists(self,lst_lists: list):
+        new_list = list()
+        len_all = 0
+        for lst in lst_lists:
+            len_all += len(lst)
+        for index in range(len_all):
+            for lst in range(len(lst_lists)):
+                try:
+                    new_list.append(lst_lists[lst][index])
+                except IndexError:
+                    pass
+        return new_list
+

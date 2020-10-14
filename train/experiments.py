@@ -29,37 +29,16 @@ def get_result(array_result: list):
 first_network = Network([72,5000,2000,1000,100,3],activate="Tanh",optimizer_lr=0.0013)#this network is for get features in sound
 second_network = Network([16,400,200,100,50,3],activate="Tanh",optimizer_lr=0.001)#this network is for get sound name by feaures first network
 resizer = lists()
-for repeat in range(15):
+for repeat in range(1):
     for sounds_dict in net_config["training"]["train_data"]:
         sounds = split_sound(librosa.load(sounds_dict["path"])[0], count_split=3000)
         if not(sounds):
             continue
         outputs = []
         for sound in sounds:
-            output = first_network.training_net(
-                inputs=torch.FloatTensor(tratment_sound(sound=sound)),must_outputs=torch.FloatTensor(sounds_dict["must_output"]))
-            outputs.append(output)
-
-        print("Sound: ",sounds_dict["name"], "\n-----------------")
-        print("Network think: ",make_result(get_result(outputs)))
-plt.plot(first_network.errors)
-plt.show()
-#[i.detach().numpy()[0] for i in outputs]
-
-
-
-for sounds_dict in net_config["test"]["test_data"]:
-    sounds = split_sound(librosa.load(sounds_dict["path"])[0], count_split=3000)
-    outputs = []
-    for sound in sounds:
-        output = first_network.forward(inputs=torch.FloatTensor(tratment_sound(sound=sound)))
-        outputs.append(output)
-    output = second_network.training_net(
-        inputs=torch.FloatTensor(resizer.resize(lst=[i.detach().numpy()[0] for i in outputs], resize_to=16)),
-        must_outputs=torch.FloatTensor(sounds_dict["must_output"]))
-    print("Network think: ", make_result(output))
-
-
+            plt.plot(tratment_sound(sound=sound))
+            plt.xlabel(sounds_dict["name"])
+            plt.show()
 
 
 

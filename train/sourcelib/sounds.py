@@ -8,6 +8,8 @@ def split_sound(sound,count_split: int = 3000):
     for splited_index in range(len(sound)//count_split):
         splited.append(sound[:count_split])
         sound = sound[count_split:]
+    if len(splited[:len(splited)-1]) == 0:
+        return False
     return splited[:len(splited)-1]
 
 def get_center_sound(splited_sound: list, count_split: int = 10000):
