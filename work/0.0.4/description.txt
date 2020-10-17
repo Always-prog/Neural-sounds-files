@@ -1,3 +1,25 @@
 in this netowrk worked 2 neural networks.
 
 Uses a chrome_stf feature.
+It works like this:
+
+  1.
+  Get sound 
+  
+  2.
+  Split sound by 300 milliseconds
+  
+  3.
+  get features chrome_stf from this sounds
+  
+  4.
+  forward each sounds in feature to first network, network for each sound return "firk" or "hmm" or "space"
+  
+  5.
+  list of returned first networtk is resizes to 16.
+  
+  6.
+  this 16 forward to second network
+  
+  7.
+  second network return answer, this sound is "firk", "hmm", or "space"
