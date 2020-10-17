@@ -45,6 +45,12 @@ net_config = {
             }
         },
         "test_data": []
+
+    },
+    "convert_str_to_float": {
+        "firk": 0.5,
+        "hmm": 0.0,
+        "space": 1.0
     },
     "netout": {}
 }
