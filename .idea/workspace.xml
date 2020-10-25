@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Net" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7f336095-4352-4144-8746-f7b845135239" name="Default Changelist" comment="Remake description for network 0.0.4">
+      <change afterPath="$PROJECT_DIR$/.idea/NeuralSounds.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Stepan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/frst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/scnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/0c8fda7f9405c4193eafe6352947d4e6bd410174760f02f8c2929a19cf67c94c.wav_new.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train/sourcelib/delete_spaces_in_sound.py" beforeDir="false" afterPath="$PROJECT_DIR$/train/sourcelib/delete_spaces_in_sound.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hiWQjvwjFBBw8ejgeawkfGBL8t" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\train\sourcelib" />
+      <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\work\0.0.4" />
+      <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\train" />
+      <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\Network" />
+      <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\sounds\train_sounds\firk" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\work\0.0.4" />
+      <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\experiments" />
+      <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\train\sounds\train_sounds\hmm" />
+      <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\train\sounds\train_sounds\firk" />
+      <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\work\0.0.3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main (2)">
+    <configuration name="experiments (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NeuralSounds" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/experiments" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiments/experiments.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NeuralSounds" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NeuralSounds" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/work/0.0.4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work/0.0.4/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NeuralSounds" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/experiments" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiments/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sounds" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NeuralSounds" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/experiments/sourcelib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiments/sourcelib/sounds.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.experiments (1)" />
+        <item itemvalue="Python.sounds" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f336095-4352-4144-8746-f7b845135239" name="Default Changelist" comment="" />
+      <created>1600494378960</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600494378960</updated>
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1601189488510</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601189488510</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added sounds. Created network. Created training network.">
+      <created>1601226305772</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601226305772</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added new sounds, added Net">
+      <created>1601737343677</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601737343677</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added new sounds. Remake function tratment_sound(). Added new sound class">
+      <created>1602237644499</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602237644499</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added new sounds.">
+      <created>1602338641359</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602338641359</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added new fuinction in lib.&#10;This function need">
+      <created>1602342227275</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602342227275</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added package to normalize list (reshape)">
+      <created>1602428706698</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602428706698</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added training net by resize and 2 nets.">
+      <created>1602429861110</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602429861110</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Refactored catalog.">
+      <created>1602567540260</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602567540260</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Refactored all configs.">
+      <created>1602571569570</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602571569570</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fixed bug in config training and test data.">
+      <created>1602572168202</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602572168202</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added networks">
+      <created>1602583350454</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602583350454</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Spaces">
+      <created>1602585981738</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1602585981738</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added new sounds">
+      <created>1602603353188</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1602603353188</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added experiments.py, and added normal split sound">
+      <created>1602659467589</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1602659467589</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added new netowrk 0.0.4">
+      <created>1602939334808</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1602939334808</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Remake description for network 0.0.4">
+      <created>1602941482410</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1602941482410</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="Added sounds. Created network. Created training network." />
+    <MESSAGE value="Added new sounds, added Net" />
+    <MESSAGE value="added new sounds. Remake function tratment_sound(). Added new sound class" />
+    <MESSAGE value="added new sounds." />
+    <MESSAGE value="added new fuinction in lib.&#10;This function need" />
+    <MESSAGE value="Added package to normalize list (reshape)" />
+    <MESSAGE value="Added training net by resize and 2 nets." />
+    <MESSAGE value="Refactored catalog." />
+    <MESSAGE value="Refactored all configs." />
+    <MESSAGE value="Fixed bug in config training and test data." />
+    <MESSAGE value="Added networks" />
+    <MESSAGE value="Spaces" />
+    <MESSAGE value="added new sounds" />
+    <MESSAGE value="Added experiments.py, and added normal split sound" />
+    <MESSAGE value="added new netowrk 0.0.4" />
+    <MESSAGE value="Remake description for network 0.0.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remake description for network 0.0.4" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="769" y="370" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601822592639">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="769" y="370" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601822592639" />
+    <state x="769" y="370" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1601202606837" />
+    <state x="669" y="135" key="#main" timestamp="1602228755547">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="669" y="135" key="#main/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601709187102" />
+    <state x="669" y="135" key="#main/0.0.1920.1080@0.0.1920.1080" timestamp="1602228755547" />
+    <state x="669" y="135" key="#test_(1)" timestamp="1601790725109">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="669" y="135" key="#test_(1)/0.0.1920.1080@0.0.1920.1080" timestamp="1601790725109" />
+    <state x="739" y="294" key="FileChooserDialogImpl" timestamp="1602941811550">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="739" y="294" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601709212293" />
+    <state x="739" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1602941811550" />
+    <state width="1056" height="341" key="GridCell.Tab.0.bottom" timestamp="1602941814646">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1898" height="332" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601824250330" />
+    <state width="1258" height="317" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1280.1024@1920.0.1280.1024" timestamp="1601215549566" />
+    <state width="1056" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1602941814646" />
+    <state width="1056" height="341" key="GridCell.Tab.0.center" timestamp="1602941814646">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1898" height="332" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601824250330" />
+    <state width="1258" height="317" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1280.1024@1920.0.1280.1024" timestamp="1601215549565" />
+    <state width="1056" height="341" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1602941814646" />
+    <state width="1056" height="341" key="GridCell.Tab.0.left" timestamp="1602941814646">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1898" height="332" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601824250330" />
+    <state width="1258" height="317" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1280.1024@1920.0.1280.1024" timestamp="1601215549565" />
+    <state width="1056" height="341" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1602941814646" />
+    <state width="1056" height="341" key="GridCell.Tab.0.right" timestamp="1602941814646">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1898" height="332" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601824250330" />
+    <state width="1258" height="317" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1280.1024@1920.0.1280.1024" timestamp="1601215549565" />
+    <state width="1056" height="341" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1602941814646" />
+    <state x="461" y="184" key="SettingsEditor" timestamp="1601189163383">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="184" key="SettingsEditor/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601130385198" />
+    <state x="461" y="184" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1601189163383" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1601790927401">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1601790927401" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1602941484362">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601737344285" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1602941484362" />
+    <state x="566" y="150" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602582759473">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="566" y="150" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1602582759473" />
+    <state x="769" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601189183022">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="769" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1601189183022" />
+    <state x="761" y="446" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601189506268">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="761" y="446" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601189506268" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1602601678016">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1602601678016" />
+  </component>
+</project>
