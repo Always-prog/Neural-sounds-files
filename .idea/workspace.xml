@@ -19,168 +19,184 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f336095-4352-4144-8746-f7b845135239" name="Default Changelist" comment="Update lib">
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/0c8fda7f9405c4193eafe6352947d4e6bd410174760f02f8c2929a19cf67c94c.wav_new.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/171884eb9a252ee1e3a8b37d847c852c8ae6b81efafafd54fa1963282894fe18.wav_new.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/1d6404acc11a09c66410d00c1ef9f6ae1f5e4c0b279ddbb0b740bc8757198420.wav_new.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/2626660bea5e13d013d0ff528a85359ad23ed32d6173135c48c92ed7e682bd20.wav_new.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/4011eb7fb6be88c1fd5ee3dd991ec7784e3295c39dcd11d097ad911dc929b2ca.wav_new.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/54fd0f9e2669a2e87e38bfde06c00d46515d90b5f9d6a4bbfc8c472116bd88bb.wav_new.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/57582b8f8b74c043e37ab7dd7fdd4a331e4ead9956f69697f59f4040b74f8e54.wav_new.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/68d897df5094d41174204ddf72419b63bacd2b45e0208f1a424000b2e0c3084f.wav_new.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/6caec59ab4a7ffb7cba6ef4b928b7f07ee5d58603cd9b26f091ccd5a5327566d.wav_new.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/6ce9efe0e3439c36b42085c3d135eeadce955d57b6ecc098ad9c590ab68ad5bf.wav_new.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/7d086fd3a3483540a1e78b92c1e54659dc7cf187103bd44de301894ad8f3866f.wav_new.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/7dc7efee1b96aeeb92608ce2ed0deaec4784c877ef4a9d39a3cee20952bc4356.wav_new.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/7de426defe7a4927abb5695fd7a378e205351a753cff3925aa918c7acbcd468f.wav_new.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/81538b9a4b249bb0b397f75081f1dbda766228f65cc7f7e868f107ac77591f0d.wav_new.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/823b5ea6199335795d1b778dfe8688d0d101cb61ba7c0e8dc66bddd2bba93ddf.wav_new.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/8291d68ad6c831ed1ea8c3644f4b58ccb11802acc818976fd5ae5e9b9e41ee47.wav_new.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/86163cac538bd84993f59fce63e1fdecc7f3fc2537390b42544185dab7c68f35.wav_new.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/8acb88f5c4c77e9916dc8af89d26b906396dee685a9630b51ac7ac8e2cab3cd8.wav_new.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/af8d3c5e7c63fc74ac8333feb7d8d72b19bcc1a302d0d821a4eb1225b3b80897.wav_new.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/ba16d20e92f53efcd01491754fbcd51398efa13b0bdff7119669bbe3e0d387fa.wav.wav_new.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/bdea7a00b8d6627d41e5662b87f6befbe8369ec4038651714a78ec2ed6a47159.wav_new.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/ed9594eb5bd420120536696825f5d872876d357cf2fb8be203311abd587a694b.wav_new.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/fbeef9c64fe2caf39ac8d17b4eb01670553f1331ef68fd943fe518aef31d1304.wav_new.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/fc80bdc9443ca9c70fc7b3bacb9290414c1e848ac8f813b8ee7f0ea7419a3cb3.wav_new.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/08193988f85b0bcbde6eeb86db22eb5393edbc9a4d6e420d8e98afd587d17f27.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/0ce7767d581118d4bab40ce7dbdee69b332bbc207ef6339ec6109840c631212d.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/194347713795abbc50407803dfa2444b656521b91dac886ed86beadcb92a0463.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/1fbb69af30cf7085ea729b0732bbdf1d8ee6fdf2f2c66f5342af5a0ad2f4da18.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/236ed9f50a7a1102bce491f59911f00054c330dcb8f1315347c35281e21994e9.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/23c8cee63dd0cb2ed69f1df103bd7de2651abf6b0dc98c33e3b1bc2a734a5fdd.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/2b30b03245cf21cfc202aeee47be752ad51b350761b7381ddb3c1def86adc5cf.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/3392420ef590dff7ff84c4d174e24176fb132441bd5eb820d65d4544ced0bee5.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/379a10d8c183904c2655785b595ede9920f17f6020cb433936ef14e064890495.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/3876d3fc2d8d7b9e0128fff8a99dbd9330e4504a297ec0d36deaa1084d57d4db.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/393e89b17fdea27a574ffee7375d62fa101ee1c1b251087656485169990ce3cc.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/3ad102fd7d962fbb918ebc8223f3575ee308be12472a74b60e14002b25638d50.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/3da47e5364898990563aa3e273c22d8d425d434a6add7317d8d20a9c96085807.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/409506fb6b3878096f329b62ee76e7ddcc02c3b2698671476e6a26465b0acc25.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/4351c1ca9f5029f20fbaf443d86e2200b0a3da9ae5b3daabc542329bede2ddf7.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/458f5ba86a3eed8726cf2d6ec33ec8c43106455f235dd0189265d9fa9a09d0da.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/54c372203d52a37bf06100778f71073e84404df054656e6c25faeb383084645b.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/54e28a0a55002b7e0ab33eb044824d908645922b72eb0a158fcffe0bdc44b658.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/59c6ce216db516698c48d6cee3b7463c53f41387a1b98bbfd0f4e2824370b299.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/5d66ce2924768d03a6376e556de8ec64537c0eede30bab51ac3cac595be755c7.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/66e0166acf04b9703d130454a2c261ca254cdc86500d5021366acb50b3dab8a9.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/67af8d6490bdf0dbf7fdf76c8391f89fafbce37d2fe5bbb1af8b0ea38f8e30b6.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/7023c3f3444df465d696eeedf61048adc85a8c06eead09d229b65f8119508aef.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/7275ebad1aeb90136fb2be1279f8f43a5f451516a796ad7b8cc05644cd808b9c.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/72b973a0f2473ccc40722e42767bd4f1c57251325b29e33da53fdcbad383d8de.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/747d09d1fadefb16ab3b3d8fb575f137855dfe4ead4654dfd55a39355a0e0eec.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/798ca7c6014b7b874c9aabe2f7079b930f86ac17e9b1d76abfdbb35009fda7de.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/7aafc86e575ff0d3dbb256a55133fb3a478eb2bc1b335e08bddf0864a793d5bb.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/7c1b1c85192d6a71890570c2dd08bfefd7a5a9e0ab726fc8fbe2a4fc984159b7.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/80ece56af91d48cf32547a64c994f8ce17e5cbba4b340f1fb7d5b9af6f7409c9.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/842c95f91331e4bea4d65f517555ef725edea1ca37d61c451dc776a01c1b2131.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/8b613b3358a7d9e8b83d4269798a3c4b4aea8940fff277d2420b36d5f60f405c.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/9a095c8fd6fb65fc19539e567b6639a3ff286dd00aeb0d090f5b14f1fd2e0ece.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/ac4ba287c598881472cc1bc792f85857ec7f973ed25b3e015120ebf6aa80b84a.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/b6becbb0fc563900915a21702ba4a2b496a342d7710ca21bab62b021d1761fde.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/bd997a16b6e2ce0d32b752446ca4295627ff4f865d840a05108503251b78dac4.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/bf834f6c8dfda48de0b796cfa3064e52ad8b05535bdd49287131de0ab9e1ede6.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/c463373c47ad086afa2311fe62f1c9c37fa690c12215ff2659a001d33d85d2fe.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/cfbe4c15b19d6ce53102f46e7b9da40d4baa84777c29e166d5c8976ffbffd90a.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/db20e0c5f507ee06ab6c6dd07815317e47410ff5c867221946ac0ca6a9c24e74.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/e206b453658edc1f9aa7d3c2a7fe0be2b5c001f0268eed2cebf1bb62e83ea88d.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/e2a265a072c297478bac7469448d3a0c377a73cc155fca5fa39719120baaec09.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/e435d9c08bc521b8181a9b85f54877dbe177ba7868a655b863b35d7fd6aa8b4f.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/e4813bed17e625b955d76e50cc091da8cd1ffa769d11313f3737ac290c289ce6.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/eb5982dac75f9c8fcd6c0adcb4f374d2f23eface913814c540aaf2c26d2a1a6b.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/ec7f8a0c48aa0b672376c54d0fe56047023f3ab3694eeff2a0c79cfb868e4e00.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/f44c39bee658488c905d76aa411132a1a0029506de703b2770b8d5d1814472dc.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/f89e60d0554120e97a4d605382b931d152bfbb63639bd41508c7d00bb17e10fc.wav" afterDir="false" />
+    <list default="true" id="7f336095-4352-4144-8746-f7b845135239" name="Default Changelist" comment="Added new sounds">
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/description.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/firk.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/frst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/hmm.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/rec.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/scnd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/test_sounds/firk/3e6fb03cf985866dc9f9f7070e2de3962a9125870fb9230c58297e4b68869332.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/test_sounds/firk/3f2a35b13641e947fdf02d54d7464bc810c902adcd8adbf0d04e0063cc47cca7.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/test_sounds/hmm/2b30b03245cf21cfc202aeee47be752ad51b350761b7381ddb3c1def86adc5cf.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/test_sounds/hmm/3ad102fd7d962fbb918ebc8223f3575ee308be12472a74b60e14002b25638d50.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/test_sounds/other/16.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/test_sounds/other/18.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/test_sounds/space/space2(1).wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/test_sounds/space/space2(5).wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/0c8fda7f9405c4193eafe6352947d4e6bd410174760f02f8c2929a19cf67c94c.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/119d2675920fd337b2bb93ad59fb15ad08a261967bcfaebf197008b295820bc9.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/171884eb9a252ee1e3a8b37d847c852c8ae6b81efafafd54fa1963282894fe18.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/18c2b068707c34ad7779043458e4aad79f21e662b5cf098f2ee18a826e184db5.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/1a75d5baef47a8aaf57fabc2fc324c1e04ae7f7803d67e2d62fd27925ea70bb2.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/1d6404acc11a09c66410d00c1ef9f6ae1f5e4c0b279ddbb0b740bc8757198420.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/22cb4e9e1ab7ab26c05008e72f02ffbad768ba8c6b74f0ec461b903b353b563e.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/2626660bea5e13d013d0ff528a85359ad23ed32d6173135c48c92ed7e682bd20.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/35f935ecfa3f8d9fedb9a8afff5d6d2a4d125d77881d55099c14569fde548750.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/38d5d99d96e1579c7332e32fc83c59183e8f8c0cf9d2ee7847eb411767b40289.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/3e6fb03cf985866dc9f9f7070e2de3962a9125870fb9230c58297e4b68869332.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/3f2a35b13641e947fdf02d54d7464bc810c902adcd8adbf0d04e0063cc47cca7.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/4011eb7fb6be88c1fd5ee3dd991ec7784e3295c39dcd11d097ad911dc929b2ca.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/507dd3fd47ea2493928c33a3100d37e2560e72b69023d85bb66efde250f1a168.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/5429302efdcd87c4b26f0aab2722ed19434c0481d4ad610c4dd64e6145abd8f5.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/54fd0f9e2669a2e87e38bfde06c00d46515d90b5f9d6a4bbfc8c472116bd88bb.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/5542b635f4ee9167409e9f43e3589f548b2b5601341b626353947dca196f75fe.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/57582b8f8b74c043e37ab7dd7fdd4a331e4ead9956f69697f59f4040b74f8e54.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/5b8b3b04ba69380bee5282923fe939a4e06599354d437b8425aad87404650246.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/62cf556e80e537a7d3ab22d461f1042eb573fec8ebbab2327b065f21ca892721.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/68d897df5094d41174204ddf72419b63bacd2b45e0208f1a424000b2e0c3084f.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/6caec59ab4a7ffb7cba6ef4b928b7f07ee5d58603cd9b26f091ccd5a5327566d.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/6ce9efe0e3439c36b42085c3d135eeadce955d57b6ecc098ad9c590ab68ad5bf.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/7a63fae0c7f4ad1be12bf45c0f45f5e948dd7c07257455bb20e585717ef3284f.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/7b235bf66f408f0588b53e9580b158ae4608d02fcb89429d10a853a26a5f7f78.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/7c3b9f85f086ff5aee841fcfe88d5c3e98ffae55f11f1d2a96cd9a0a526b11c9.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/7d086fd3a3483540a1e78b92c1e54659dc7cf187103bd44de301894ad8f3866f.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/7d70dc840cabe9daa98bd8783c374177ff212bff4cb674c9294e3c7248e89518.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/7db6920a99d1023791aac85f58edb1fe448c780ab62a54d16d90438ff3f6b162.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/7dc7efee1b96aeeb92608ce2ed0deaec4784c877ef4a9d39a3cee20952bc4356.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/7de426defe7a4927abb5695fd7a378e205351a753cff3925aa918c7acbcd468f.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/81538b9a4b249bb0b397f75081f1dbda766228f65cc7f7e868f107ac77591f0d.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/816cb80493d1a57ec71b7f7693d2c768973a4fd39180619c19321299652a10e2.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/823b5ea6199335795d1b778dfe8688d0d101cb61ba7c0e8dc66bddd2bba93ddf.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/8291d68ad6c831ed1ea8c3644f4b58ccb11802acc818976fd5ae5e9b9e41ee47.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/83374230b7f67bab1cd58fd259024d871f62c6e996d0b14ab01d6fb9e7f7dfcf.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/86163cac538bd84993f59fce63e1fdecc7f3fc2537390b42544185dab7c68f35.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/8869297bf0290da1fd11c1f10a16e616b59cc5150f96b955d73997a288d7a398.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/8acb88f5c4c77e9916dc8af89d26b906396dee685a9630b51ac7ac8e2cab3cd8.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/9dde6726af1fc6f7c4c938430165bfe76d1d22f5d3f9533bc498116fed5aeefd.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/9ee88698f16c39dfb044630330b12cbacab20b8eb2f7e70a24e912c8e9dece89.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/af8d3c5e7c63fc74ac8333feb7d8d72b19bcc1a302d0d821a4eb1225b3b80897.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/b7065b88d5c9319011e1ba5cf84edf4a2d24e690e1513f2e26a3d38f6274aa05.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/b85933ca2ef470bbbcf8c4f408640a555a301af45c734a6d361934bd01313ed6.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/ba16d20e92f53efcd01491754fbcd51398efa13b0bdff7119669bbe3e0d387fa.wav.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/ba4941c6486b5893d73f697c31a92dbe73149150a17078d651b970e22d3d4b7e.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/bdea7a00b8d6627d41e5662b87f6befbe8369ec4038651714a78ec2ed6a47159.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/bf4a80512fe2011b4916c833f22b69929e415f13b2f979829faed4d7d0353810.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/c5f7e1fda37151a11af967cb674af6fed2754a373afd7054882ee5e3d11d244e.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/ca3165a5c1a1283f4c3682345ee57397f356a41e3a12d8577dce0a420c0de004.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/cab93763855d4ed6894257129ea9a17802042641d126551242b062f40f3cc248.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/d085aac2437cb38b54b434fcf34200a323628f6b8fe5f143f7047ecb44fa7ac7.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/db340df2d84def64612edb26024b8f03e6c3c0cc2dc08a725d5f2ebda916acd3.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/e62a66f958c4cb3eee21116a5d11e784569869d16e33c9472136922742377839.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/ed1bc17fdb108c4a42d5695446bce8b2a1386111d0ff8bf65b4aa1a9b56d0639.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/ed9594eb5bd420120536696825f5d872876d357cf2fb8be203311abd587a694b.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/eeee4c47a9529c24abc5d0f78a00e8d72bc5864677607ed0a8c48340384db132.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/ef8a2e07a72787b37c72b06675cd36902f66c661d12eceb32d7fe0b85fc3bb33.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/f2ce20c8f649227ad33cc8554832b41030484fab424647f4461c4376951c0980.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/f6c22bc0b34cd44d4f4a9bfdde93ce1c932c98e5f9306b436fdcf3f96ddcb2e5.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/fbeef9c64fe2caf39ac8d17b4eb01670553f1331ef68fd943fe518aef31d1304.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/fc80bdc9443ca9c70fc7b3bacb9290414c1e848ac8f813b8ee7f0ea7419a3cb3.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/firk/fd8a47e3461587aa6dc13fb988f9dfb59b56b4b52a56ff627bf2bcd05bb10f6d.wav_new.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/08193988f85b0bcbde6eeb86db22eb5393edbc9a4d6e420d8e98afd587d17f27.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/0ce7767d581118d4bab40ce7dbdee69b332bbc207ef6339ec6109840c631212d.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/194347713795abbc50407803dfa2444b656521b91dac886ed86beadcb92a0463.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/1fbb69af30cf7085ea729b0732bbdf1d8ee6fdf2f2c66f5342af5a0ad2f4da18.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/236ed9f50a7a1102bce491f59911f00054c330dcb8f1315347c35281e21994e9.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/23c8cee63dd0cb2ed69f1df103bd7de2651abf6b0dc98c33e3b1bc2a734a5fdd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/2b30b03245cf21cfc202aeee47be752ad51b350761b7381ddb3c1def86adc5cf.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/3392420ef590dff7ff84c4d174e24176fb132441bd5eb820d65d4544ced0bee5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/379a10d8c183904c2655785b595ede9920f17f6020cb433936ef14e064890495.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/3876d3fc2d8d7b9e0128fff8a99dbd9330e4504a297ec0d36deaa1084d57d4db.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/393e89b17fdea27a574ffee7375d62fa101ee1c1b251087656485169990ce3cc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/3ad102fd7d962fbb918ebc8223f3575ee308be12472a74b60e14002b25638d50.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/3da47e5364898990563aa3e273c22d8d425d434a6add7317d8d20a9c96085807.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/409506fb6b3878096f329b62ee76e7ddcc02c3b2698671476e6a26465b0acc25.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/4351c1ca9f5029f20fbaf443d86e2200b0a3da9ae5b3daabc542329bede2ddf7.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/458f5ba86a3eed8726cf2d6ec33ec8c43106455f235dd0189265d9fa9a09d0da.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/54c372203d52a37bf06100778f71073e84404df054656e6c25faeb383084645b.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/54e28a0a55002b7e0ab33eb044824d908645922b72eb0a158fcffe0bdc44b658.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/59c6ce216db516698c48d6cee3b7463c53f41387a1b98bbfd0f4e2824370b299.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/5d66ce2924768d03a6376e556de8ec64537c0eede30bab51ac3cac595be755c7.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/66e0166acf04b9703d130454a2c261ca254cdc86500d5021366acb50b3dab8a9.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/67af8d6490bdf0dbf7fdf76c8391f89fafbce37d2fe5bbb1af8b0ea38f8e30b6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/7023c3f3444df465d696eeedf61048adc85a8c06eead09d229b65f8119508aef.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/7275ebad1aeb90136fb2be1279f8f43a5f451516a796ad7b8cc05644cd808b9c.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/72b973a0f2473ccc40722e42767bd4f1c57251325b29e33da53fdcbad383d8de.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/747d09d1fadefb16ab3b3d8fb575f137855dfe4ead4654dfd55a39355a0e0eec.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/798ca7c6014b7b874c9aabe2f7079b930f86ac17e9b1d76abfdbb35009fda7de.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/7aafc86e575ff0d3dbb256a55133fb3a478eb2bc1b335e08bddf0864a793d5bb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/7c1b1c85192d6a71890570c2dd08bfefd7a5a9e0ab726fc8fbe2a4fc984159b7.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/80ece56af91d48cf32547a64c994f8ce17e5cbba4b340f1fb7d5b9af6f7409c9.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/842c95f91331e4bea4d65f517555ef725edea1ca37d61c451dc776a01c1b2131.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/8b613b3358a7d9e8b83d4269798a3c4b4aea8940fff277d2420b36d5f60f405c.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/9a095c8fd6fb65fc19539e567b6639a3ff286dd00aeb0d090f5b14f1fd2e0ece.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/ac4ba287c598881472cc1bc792f85857ec7f973ed25b3e015120ebf6aa80b84a.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/b6becbb0fc563900915a21702ba4a2b496a342d7710ca21bab62b021d1761fde.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/bd997a16b6e2ce0d32b752446ca4295627ff4f865d840a05108503251b78dac4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/bf834f6c8dfda48de0b796cfa3064e52ad8b05535bdd49287131de0ab9e1ede6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/c463373c47ad086afa2311fe62f1c9c37fa690c12215ff2659a001d33d85d2fe.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/cfbe4c15b19d6ce53102f46e7b9da40d4baa84777c29e166d5c8976ffbffd90a.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/db20e0c5f507ee06ab6c6dd07815317e47410ff5c867221946ac0ca6a9c24e74.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/e206b453658edc1f9aa7d3c2a7fe0be2b5c001f0268eed2cebf1bb62e83ea88d.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/e2a265a072c297478bac7469448d3a0c377a73cc155fca5fa39719120baaec09.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/e435d9c08bc521b8181a9b85f54877dbe177ba7868a655b863b35d7fd6aa8b4f.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/e4813bed17e625b955d76e50cc091da8cd1ffa769d11313f3737ac290c289ce6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/eb5982dac75f9c8fcd6c0adcb4f374d2f23eface913814c540aaf2c26d2a1a6b.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/ec7f8a0c48aa0b672376c54d0fe56047023f3ab3694eeff2a0c79cfb868e4e00.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/f44c39bee658488c905d76aa411132a1a0029506de703b2770b8d5d1814472dc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/hmm/f89e60d0554120e97a4d605382b931d152bfbb63639bd41508c7d00bb17e10fc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/other/1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/other/10.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/other/11.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/other/12.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/other/13.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/other/14.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/other/15.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/other/2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/other/3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/other/5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/other/6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/other/7.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/other/8.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/other/9.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/space/rec (1).wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/space/rec (2).wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/space/rec (3).wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/space/rec (4).wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/space/rec (5).wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/space/rec (6).wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/space/rec (7).wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/space/space(1).wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/space/space(10).wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/space/space(10)2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/space/space(11).wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/space/space(11)2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/space/space(12).wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/space/space(12)2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/space/space(13)2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/space/space(2).wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/space/space(3).wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/space/space(4).wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/space/space(5).wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/space/space(6).wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/space/space(7).wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/space/space(7)2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/space/space(8).wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/space/space(8)2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/space/space(9).wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sounds/train_sounds/space/space(9)2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sourcelib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sourcelib/delete_spaces_in_sound.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sourcelib/net.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sourcelib/normalize_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.5/sourcelib/sounds.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/06c988682fe63894a5a742660524c72738954b92e8a931a3d8b0b0574c0ff46f.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/119d2675920fd337b2bb93ad59fb15ad08a261967bcfaebf197008b295820bc9.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/119d2675920fd337b2bb93ad59fb15ad08a261967bcfaebf197008b295820bc9.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/18c2b068707c34ad7779043458e4aad79f21e662b5cf098f2ee18a826e184db5.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/18c2b068707c34ad7779043458e4aad79f21e662b5cf098f2ee18a826e184db5.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/1a75d5baef47a8aaf57fabc2fc324c1e04ae7f7803d67e2d62fd27925ea70bb2.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/1a75d5baef47a8aaf57fabc2fc324c1e04ae7f7803d67e2d62fd27925ea70bb2.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/22cb4e9e1ab7ab26c05008e72f02ffbad768ba8c6b74f0ec461b903b353b563e.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/22cb4e9e1ab7ab26c05008e72f02ffbad768ba8c6b74f0ec461b903b353b563e.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/35f935ecfa3f8d9fedb9a8afff5d6d2a4d125d77881d55099c14569fde548750.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/35f935ecfa3f8d9fedb9a8afff5d6d2a4d125d77881d55099c14569fde548750.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/38d5d99d96e1579c7332e32fc83c59183e8f8c0cf9d2ee7847eb411767b40289.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/38d5d99d96e1579c7332e32fc83c59183e8f8c0cf9d2ee7847eb411767b40289.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/3e6fb03cf985866dc9f9f7070e2de3962a9125870fb9230c58297e4b68869332.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/3e6fb03cf985866dc9f9f7070e2de3962a9125870fb9230c58297e4b68869332.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/3f2a35b13641e947fdf02d54d7464bc810c902adcd8adbf0d04e0063cc47cca7.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/3f2a35b13641e947fdf02d54d7464bc810c902adcd8adbf0d04e0063cc47cca7.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/407dda05074c7aea8f3fc1bad18058966debac5fccac88c3b3547f3f4a13ce2b.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/507dd3fd47ea2493928c33a3100d37e2560e72b69023d85bb66efde250f1a168.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/507dd3fd47ea2493928c33a3100d37e2560e72b69023d85bb66efde250f1a168.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/5429302efdcd87c4b26f0aab2722ed19434c0481d4ad610c4dd64e6145abd8f5.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/5429302efdcd87c4b26f0aab2722ed19434c0481d4ad610c4dd64e6145abd8f5.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/5542b635f4ee9167409e9f43e3589f548b2b5601341b626353947dca196f75fe.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/5542b635f4ee9167409e9f43e3589f548b2b5601341b626353947dca196f75fe.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/5b8b3b04ba69380bee5282923fe939a4e06599354d437b8425aad87404650246.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/5b8b3b04ba69380bee5282923fe939a4e06599354d437b8425aad87404650246.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/62cf556e80e537a7d3ab22d461f1042eb573fec8ebbab2327b065f21ca892721.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/62cf556e80e537a7d3ab22d461f1042eb573fec8ebbab2327b065f21ca892721.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/64e7591bfce2e4a86ed7eb2f4535a67412ec6f4d1dd060559ba9747fa671cb9d.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/7a63fae0c7f4ad1be12bf45c0f45f5e948dd7c07257455bb20e585717ef3284f.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/7a63fae0c7f4ad1be12bf45c0f45f5e948dd7c07257455bb20e585717ef3284f.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/7b235bf66f408f0588b53e9580b158ae4608d02fcb89429d10a853a26a5f7f78.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/7b235bf66f408f0588b53e9580b158ae4608d02fcb89429d10a853a26a5f7f78.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/7c3b9f85f086ff5aee841fcfe88d5c3e98ffae55f11f1d2a96cd9a0a526b11c9.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/7c3b9f85f086ff5aee841fcfe88d5c3e98ffae55f11f1d2a96cd9a0a526b11c9.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/7c8b433414bfa4ea7171bfb9ee75a6a317de4e53d7d8b10d184da6b07dd62f43.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/7d70dc840cabe9daa98bd8783c374177ff212bff4cb674c9294e3c7248e89518.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/7d70dc840cabe9daa98bd8783c374177ff212bff4cb674c9294e3c7248e89518.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/7db6920a99d1023791aac85f58edb1fe448c780ab62a54d16d90438ff3f6b162.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/7db6920a99d1023791aac85f58edb1fe448c780ab62a54d16d90438ff3f6b162.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/816cb80493d1a57ec71b7f7693d2c768973a4fd39180619c19321299652a10e2.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/816cb80493d1a57ec71b7f7693d2c768973a4fd39180619c19321299652a10e2.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/83374230b7f67bab1cd58fd259024d871f62c6e996d0b14ab01d6fb9e7f7dfcf.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/83374230b7f67bab1cd58fd259024d871f62c6e996d0b14ab01d6fb9e7f7dfcf.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/83f4a711ba27e1cb1c71f87f1f20fb5d3724fd054ead7050a41cb0933f40413b.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/8869297bf0290da1fd11c1f10a16e616b59cc5150f96b955d73997a288d7a398.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/8869297bf0290da1fd11c1f10a16e616b59cc5150f96b955d73997a288d7a398.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/9dde6726af1fc6f7c4c938430165bfe76d1d22f5d3f9533bc498116fed5aeefd.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/9dde6726af1fc6f7c4c938430165bfe76d1d22f5d3f9533bc498116fed5aeefd.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/9ee88698f16c39dfb044630330b12cbacab20b8eb2f7e70a24e912c8e9dece89.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/9ee88698f16c39dfb044630330b12cbacab20b8eb2f7e70a24e912c8e9dece89.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/b7065b88d5c9319011e1ba5cf84edf4a2d24e690e1513f2e26a3d38f6274aa05.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/b7065b88d5c9319011e1ba5cf84edf4a2d24e690e1513f2e26a3d38f6274aa05.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/b85933ca2ef470bbbcf8c4f408640a555a301af45c734a6d361934bd01313ed6.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/b85933ca2ef470bbbcf8c4f408640a555a301af45c734a6d361934bd01313ed6.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/ba16d20e92f53efcd01491754fbcd51398efa13b0bdff7119669bbe3e0d387fa.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/ba4941c6486b5893d73f697c31a92dbe73149150a17078d651b970e22d3d4b7e.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/ba4941c6486b5893d73f697c31a92dbe73149150a17078d651b970e22d3d4b7e.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/bf4a80512fe2011b4916c833f22b69929e415f13b2f979829faed4d7d0353810.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/bf4a80512fe2011b4916c833f22b69929e415f13b2f979829faed4d7d0353810.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/c5f7e1fda37151a11af967cb674af6fed2754a373afd7054882ee5e3d11d244e.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/c5f7e1fda37151a11af967cb674af6fed2754a373afd7054882ee5e3d11d244e.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/ca3165a5c1a1283f4c3682345ee57397f356a41e3a12d8577dce0a420c0de004.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/ca3165a5c1a1283f4c3682345ee57397f356a41e3a12d8577dce0a420c0de004.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/cab93763855d4ed6894257129ea9a17802042641d126551242b062f40f3cc248.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/cab93763855d4ed6894257129ea9a17802042641d126551242b062f40f3cc248.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/d085aac2437cb38b54b434fcf34200a323628f6b8fe5f143f7047ecb44fa7ac7.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/d085aac2437cb38b54b434fcf34200a323628f6b8fe5f143f7047ecb44fa7ac7.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/db340df2d84def64612edb26024b8f03e6c3c0cc2dc08a725d5f2ebda916acd3.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/db340df2d84def64612edb26024b8f03e6c3c0cc2dc08a725d5f2ebda916acd3.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/e62a66f958c4cb3eee21116a5d11e784569869d16e33c9472136922742377839.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/e62a66f958c4cb3eee21116a5d11e784569869d16e33c9472136922742377839.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/ed1bc17fdb108c4a42d5695446bce8b2a1386111d0ff8bf65b4aa1a9b56d0639.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/ed1bc17fdb108c4a42d5695446bce8b2a1386111d0ff8bf65b4aa1a9b56d0639.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/eeee4c47a9529c24abc5d0f78a00e8d72bc5864677607ed0a8c48340384db132.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/eeee4c47a9529c24abc5d0f78a00e8d72bc5864677607ed0a8c48340384db132.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/ef8a2e07a72787b37c72b06675cd36902f66c661d12eceb32d7fe0b85fc3bb33.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/ef8a2e07a72787b37c72b06675cd36902f66c661d12eceb32d7fe0b85fc3bb33.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/f2ce20c8f649227ad33cc8554832b41030484fab424647f4461c4376951c0980.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/f2ce20c8f649227ad33cc8554832b41030484fab424647f4461c4376951c0980.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/f6c22bc0b34cd44d4f4a9bfdde93ce1c932c98e5f9306b436fdcf3f96ddcb2e5.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/f6c22bc0b34cd44d4f4a9bfdde93ce1c932c98e5f9306b436fdcf3f96ddcb2e5.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/firk/fd8a47e3461587aa6dc13fb988f9dfb59b56b4b52a56ff627bf2bcd05bb10f6d.wav_new.wav" beforeDir="false" afterPath="$PROJECT_DIR$/train/sounds/train_sounds/firk/fd8a47e3461587aa6dc13fb988f9dfb59b56b4b52a56ff627bf2bcd05bb10f6d.wav_new.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/08193988f85b0bcbde6eeb86db22eb5393edbc9a4d6e420d8e98afd587d17f27.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/0ce7767d581118d4bab40ce7dbdee69b332bbc207ef6339ec6109840c631212d.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/194347713795abbc50407803dfa2444b656521b91dac886ed86beadcb92a0463.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/23c8cee63dd0cb2ed69f1df103bd7de2651abf6b0dc98c33e3b1bc2a734a5fdd.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/2b30b03245cf21cfc202aeee47be752ad51b350761b7381ddb3c1def86adc5cf.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/3392420ef590dff7ff84c4d174e24176fb132441bd5eb820d65d4544ced0bee5.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/379a10d8c183904c2655785b595ede9920f17f6020cb433936ef14e064890495.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/393e89b17fdea27a574ffee7375d62fa101ee1c1b251087656485169990ce3cc.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/3ad102fd7d962fbb918ebc8223f3575ee308be12472a74b60e14002b25638d50.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/409506fb6b3878096f329b62ee76e7ddcc02c3b2698671476e6a26465b0acc25.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/4351c1ca9f5029f20fbaf443d86e2200b0a3da9ae5b3daabc542329bede2ddf7.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/458f5ba86a3eed8726cf2d6ec33ec8c43106455f235dd0189265d9fa9a09d0da.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/45f03b99cf5e53d445a4e29c84d05b4f4ca94a9a00f8b6d8a43951fe0f4f4fa6.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/4b0646bb5f0e4a3f1cc627783bf1217b6d788df9776219c7ac8c7dcb8b5f60a6.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/4ca2ca3195b6fbbadb839f1f1a49da286b81189cb14ff33c0330d24132e86de7.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/54c372203d52a37bf06100778f71073e84404df054656e6c25faeb383084645b.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/59c6ce216db516698c48d6cee3b7463c53f41387a1b98bbfd0f4e2824370b299.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/5d66ce2924768d03a6376e556de8ec64537c0eede30bab51ac3cac595be755c7.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/67af8d6490bdf0dbf7fdf76c8391f89fafbce37d2fe5bbb1af8b0ea38f8e30b6.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/7275ebad1aeb90136fb2be1279f8f43a5f451516a796ad7b8cc05644cd808b9c.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/72b973a0f2473ccc40722e42767bd4f1c57251325b29e33da53fdcbad383d8de.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/747d09d1fadefb16ab3b3d8fb575f137855dfe4ead4654dfd55a39355a0e0eec.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/798ca7c6014b7b874c9aabe2f7079b930f86ac17e9b1d76abfdbb35009fda7de.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/7aafc86e575ff0d3dbb256a55133fb3a478eb2bc1b335e08bddf0864a793d5bb.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/7c1b1c85192d6a71890570c2dd08bfefd7a5a9e0ab726fc8fbe2a4fc984159b7.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/80ece56af91d48cf32547a64c994f8ce17e5cbba4b340f1fb7d5b9af6f7409c9.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/842c95f91331e4bea4d65f517555ef725edea1ca37d61c451dc776a01c1b2131.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/8b613b3358a7d9e8b83d4269798a3c4b4aea8940fff277d2420b36d5f60f405c.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/9a095c8fd6fb65fc19539e567b6639a3ff286dd00aeb0d090f5b14f1fd2e0ece.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/ac4ba287c598881472cc1bc792f85857ec7f973ed25b3e015120ebf6aa80b84a.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/b6becbb0fc563900915a21702ba4a2b496a342d7710ca21bab62b021d1761fde.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/bd997a16b6e2ce0d32b752446ca4295627ff4f865d840a05108503251b78dac4.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/bf834f6c8dfda48de0b796cfa3064e52ad8b05535bdd49287131de0ab9e1ede6.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/c2ed526cb4f85b6ae6459553f03c0cb50567e2a7cea0253947c17e019be5e8ef.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/c463373c47ad086afa2311fe62f1c9c37fa690c12215ff2659a001d33d85d2fe.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/db20e0c5f507ee06ab6c6dd07815317e47410ff5c867221946ac0ca6a9c24e74.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/e206b453658edc1f9aa7d3c2a7fe0be2b5c001f0268eed2cebf1bb62e83ea88d.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/e2a265a072c297478bac7469448d3a0c377a73cc155fca5fa39719120baaec09.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/e435d9c08bc521b8181a9b85f54877dbe177ba7868a655b863b35d7fd6aa8b4f.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/e4813bed17e625b955d76e50cc091da8cd1ffa769d11313f3737ac290c289ce6.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/eb5982dac75f9c8fcd6c0adcb4f374d2f23eface913814c540aaf2c26d2a1a6b.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/f44c39bee658488c905d76aa411132a1a0029506de703b2770b8d5d1814472dc.wav_new.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/hmm/f89e60d0554120e97a4d605382b931d152bfbb63639bd41508c7d00bb17e10fc.wav_new.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train/frst" beforeDir="false" afterPath="$PROJECT_DIR$/train/frst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/train/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train/scnd" beforeDir="false" afterPath="$PROJECT_DIR$/train/scnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/0.0.4/scnd" beforeDir="false" afterPath="$PROJECT_DIR$/work/0.0.4/scnd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +223,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/train/sounds/train_sounds/hmm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/work/0.0.5" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -219,14 +235,14 @@
       <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\sounds\train_sounds\firk" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\work\0.0.5" />
       <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\train\sounds\train_sounds\hmm" />
       <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\train\sounds\train_sounds\firk" />
       <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\work\0.0.4" />
       <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\experiments" />
-      <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\work\0.0.3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (2)">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="experiments (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="NeuralSounds" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -334,8 +350,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.experiments (1)" />
         <item itemvalue="Python.sounds" />
@@ -479,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603626300570</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added new sounds">
+      <created>1603626776057</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1603626776057</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -513,7 +536,8 @@
     <MESSAGE value="added new netowrk 0.0.4" />
     <MESSAGE value="Remake description for network 0.0.4" />
     <MESSAGE value="Update lib" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update lib" />
+    <MESSAGE value="Added new sounds" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new sounds" />
   </component>
   <component name="WindowStateProjectService">
     <state x="769" y="370" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601822592639">
@@ -535,30 +559,30 @@
     </state>
     <state x="739" y="294" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601709212293" />
     <state x="739" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1602941811550" />
-    <state width="1056" height="341" key="GridCell.Tab.0.bottom" timestamp="1602941814646">
+    <state width="1898" height="344" key="GridCell.Tab.0.bottom" timestamp="1603637441152">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1898" height="332" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601824250330" />
     <state width="1258" height="317" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1280.1024@1920.0.1280.1024" timestamp="1601215549566" />
-    <state width="1056" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1602941814646" />
-    <state width="1056" height="341" key="GridCell.Tab.0.center" timestamp="1602941814646">
+    <state width="1898" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603637441152" />
+    <state width="1898" height="344" key="GridCell.Tab.0.center" timestamp="1603637441152">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1898" height="332" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601824250330" />
     <state width="1258" height="317" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1280.1024@1920.0.1280.1024" timestamp="1601215549565" />
-    <state width="1056" height="341" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1602941814646" />
-    <state width="1056" height="341" key="GridCell.Tab.0.left" timestamp="1602941814646">
+    <state width="1898" height="344" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603637441152" />
+    <state width="1898" height="344" key="GridCell.Tab.0.left" timestamp="1603637441152">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1898" height="332" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601824250330" />
     <state width="1258" height="317" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1280.1024@1920.0.1280.1024" timestamp="1601215549565" />
-    <state width="1056" height="341" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1602941814646" />
-    <state width="1056" height="341" key="GridCell.Tab.0.right" timestamp="1602941814646">
+    <state width="1898" height="344" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603637441152" />
+    <state width="1898" height="344" key="GridCell.Tab.0.right" timestamp="1603637441152">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1898" height="332" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601824250330" />
     <state width="1258" height="317" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1280.1024@1920.0.1280.1024" timestamp="1601215549565" />
-    <state width="1056" height="341" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1602941814646" />
+    <state width="1898" height="344" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603637441152" />
     <state x="461" y="184" key="SettingsEditor" timestamp="1601189163383">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -568,11 +592,11 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1601790927401" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1603626302455">
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1603626777893">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601737344285" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603626302455" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603626777893" />
     <state x="566" y="150" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602582759473">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -585,9 +609,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="761" y="446" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601189506268" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1602601678016">
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1603687880045">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1602601678016" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603687880045" />
   </component>
 </project>

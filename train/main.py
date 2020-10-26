@@ -37,7 +37,7 @@ def get_result(array_result: list):
     return arr_i[len(arr_i)-1][0]
 
 
-first_network = Network([72,5000,2000,1000,100,3],activate="Tanh",optimizer_lr=0.0015)#this network is for get features in sound
+first_network = Network([72,5000,2000,1000,100,3],activate="Tanh",optimizer_lr=0.001)#this network is for get features in sound
 first_network.load("frst")
 second_network = Network([16,800,200,100,50,3],activate="Tanh",optimizer_lr=0.01)#this network is for get sound name by feaures first network
 resizer = lists()
