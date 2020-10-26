@@ -12,7 +12,7 @@ from colorama import Fore, Style
 
 
 
-def red_text(text):dd
+def red_text(text):
     print(Fore.RED + str(text))
     print(Style.RESET_ALL)
 def green_text(text):
