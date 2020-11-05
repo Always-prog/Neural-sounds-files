@@ -1,9 +1,7 @@
 """In this file functions for sounds"""
 import librosa
-
+import numpy as np
 print("import library for sounds")
-from librosa.feature import chroma_stft
-from numpy import array
 
 def split_sound(sound,count_split: int = 3000):
     splited = []
@@ -27,7 +25,6 @@ def get_center_split_sound(sound):
     return split_sound(get_center_sound(sound))
 
 def tratment_sound(sound: bytes):
-    new_sound = librosa.feature.chroma_stft(sound)
-    new_sound = new_sound.reshape(len(new_sound) * len(new_sound[0]))
-    return new_sound
-
+    spec = np.abs(librosa.stft(sound))
+    spec = librosa.amplitude_to_db(spec)
+    return spec.reshape(len(spec)*len(spec[0]))
