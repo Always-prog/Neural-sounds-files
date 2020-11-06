@@ -1,0 +1,36 @@
+this net work by myself features in sound.
+This net use 2 neural networks
+"""
+176 input neurals
+o -.-.-.-\
+o -.-.-.-.-\
+o -.-.-.-.- ---> firk
+o -.-.-.-.- ---> hmm
+o -.-.-.-.- ---> space
+o -.-.-.-.-/
+o -.-.-.-/
+.
+.
+.
+
+32 input neurals
+o -.-.-.-\
+o -.-.-.- ---> firk
+o -.-.-.- ---> hmm
+o -.-.-.- ---> space
+o -.-.-.-/
+.
+.
+.
+"""
+
+
+sound split by 2000 elements, and all this element put one by one in the first network, and save all results.
+this result saves, and resize to 32 elements, and put in the second network.
+second network return answer
+
+
+first_network = Network([176,5000,2000,1000,100,3],activate="Tanh",optimizer_lr=0.001)#this network is for get features in sound
+first_network.load("frst")
+second_network = Network([32,800,200,100,50,3],activate="Tanh",optimizer_lr=0.01)#this network is for get sound name by feaures first network
+resizer = lists()

@@ -2,7 +2,7 @@
 import librosa
 import numpy as np
 print("import library for sounds")
-
+from scipy import stats
 def split_sound(sound,count_split: int = 3000):
     splited = []
     for splited_index in range(len(sound)//count_split):
@@ -24,7 +24,21 @@ def get_center_sound(splited_sound: list, count_split: int = 10000):
 def get_center_split_sound(sound):
     return split_sound(get_center_sound(sound))
 
+
 def tratment_sound(sound: bytes):
-    spec = np.abs(librosa.stft(sound))
-    spec = librosa.amplitude_to_db(spec)
-    return spec.reshape(len(spec)*len(spec[0]))
+    ff_list = []
+
+    chroma_stft_feature = librosa.feature.chroma_stft(sound)
+    mfcc_feature = librosa.feature.mfcc(sound)
+    chroma_cqt_feature = librosa.feature.chroma_cqt(sound)
+    for stft in chroma_stft_feature:
+        for stft2 in stft:
+            ff_list.append(stft2)
+    for mfcc in mfcc_feature:
+        for mfcc2 in mfcc:
+            ff_list.append(mfcc2)
+    for cqt in chroma_cqt_feature:
+        for cqt2 in cqt:
+            ff_list.append(cqt2)
+    return ff_list
+

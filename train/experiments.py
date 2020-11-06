@@ -6,12 +6,24 @@ import librosa.display
 import numpy as np
 from collections import Counter
 from config import net_config
+from scipy import stats
 
+def tratment_sound(sound: bytes,sr):
+    ff_list = []
 
-def tratment_sound(sound: bytes):
-    spec = np.abs(librosa.stft(sound))
-    spec = librosa.amplitude_to_db(spec)
-    return spec.reshape(len(spec)*len(spec[0]))
+    chroma_stft_feature = librosa.feature.chroma_stft(sound)
+    mfcc_feature = librosa.feature.mfcc(sound)
+    chroma_cqt_feature = librosa.feature.chroma_cqt(sound)
+    for stft in chroma_stft_feature:
+        for stft2 in stft:
+            ff_list.append(stft2)
+    for mfcc in mfcc_feature:
+        for mfcc2 in mfcc:
+            ff_list.append(mfcc2)
+    for cqt in chroma_cqt_feature:
+        for cqt2 in cqt:
+            ff_list.append(cqt2)
+    return ff_list
 
 
 def split_sound(sound,count_split: int = 500):
@@ -56,12 +68,14 @@ second_network = Network([16,400,200,100,50,3],activate="Tanh",optimizer_lr=0.00
 resizer = lists()
 for repeat in range(1):
     for sounds_dict in net_config["training"]["train_data"]:
-        sounds = split_sound(librosa.load(sounds_dict["path"])[0], count_split=800)
+        snd_bytes,sr = librosa.load(sounds_dict["path"])
+        sounds = split_sound(snd_bytes,count_split=1000)
         if not(sounds):
             continue
         outputs = []
         for sound in sounds:
-            plt.plot(tratment_sound(sound=sound))
+            #print(tratment_sound(sound=sound, sr=sr))
+            plt.plot(tratment_sound(sound=sound,sr=sr))
             plt.xlabel(sounds_dict["name"])
             plt.show()
 
