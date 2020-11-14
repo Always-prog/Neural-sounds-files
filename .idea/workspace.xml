@@ -19,134 +19,40 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f336095-4352-4144-8746-f7b845135239" name="Default Changelist" comment="Added new network 0.0.6">
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/muj-unijaetsya-pered-jenoy-2368 (1).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/muj-unijaetsya-pered-jenoy-2368 (10).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/muj-unijaetsya-pered-jenoy-2368 (11).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/muj-unijaetsya-pered-jenoy-2368 (12).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/muj-unijaetsya-pered-jenoy-2368 (13).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/muj-unijaetsya-pered-jenoy-2368 (2).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/muj-unijaetsya-pered-jenoy-2368 (3).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/muj-unijaetsya-pered-jenoy-2368 (4).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/muj-unijaetsya-pered-jenoy-2368 (5).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/muj-unijaetsya-pered-jenoy-2368 (6).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/muj-unijaetsya-pered-jenoy-2368 (7).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/muj-unijaetsya-pered-jenoy-2368 (8).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/muj-unijaetsya-pered-jenoy-2368 (9).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/other 1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/other 2.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/other 3.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/other 4.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/other.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (1) (1).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (1) (10).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (1) (11).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (1) (12).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (1) (13).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (1) (14).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (1) (15).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (1) (16).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (1) (17).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (1) (18).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (1) (2).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (1) (3).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (1) (4).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (1) (5).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (1) (6).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (1) (7).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (1) (8).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (1) (9).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (1).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (10).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (11).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (12).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (2).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (3).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (4).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (5).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (6).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (7).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (8).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording (9).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/New Recording.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/space (1).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/space (10).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/space (11).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/space (12).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/space (13).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/space (2).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/space (3).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/space (4).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/space (5).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/space (6).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/space (7).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/space (8).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/space (9).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/vdoh (1).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/vdoh (10).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/vdoh (11).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/vdoh (12).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/vdoh (13).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/vdoh (14).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/vdoh (15).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/vdoh (16).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/vdoh (2).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/vdoh (3).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/vdoh (4).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/vdoh (5).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/vdoh (6).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/vdoh (7).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/vdoh (8).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/space/vdoh (9).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.7/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.7/description.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.7/frst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.7/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.7/scnd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.7/sounds/firk.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.7/sounds/firk2.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.7/sounds/firk3.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.7/sounds/hmm.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.7/sounds/hmm2.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.7/sounds/other.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.7/sounds/space.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.7/sounds/space_firk_space.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.7/sounds/vzdoh.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.7/sourcelib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.7/sourcelib/delete_spaces_in_sound.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.7/sourcelib/net.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.7/sourcelib/normalize_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.7/sourcelib/sounds.py" afterDir="false" />
+    <list default="true" id="7f336095-4352-4144-8746-f7b845135239" name="Default Changelist" comment="Added new network. Added other">
+      <change afterPath="$PROJECT_DIR$/train/frst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/frst_70" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/frst_not_have_space" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/network_config_scnd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/scnd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/scnd_70" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.8/description.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.8/frst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.8/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.8/network_config_frst.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.8/network_config_scnd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.8/scnd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.8/sounds/firk.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.8/sounds/firk2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.8/sounds/firk3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.8/sounds/hmm.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.8/sounds/hmm2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.8/sounds/other.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.8/sounds/other2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.8/sounds/space_firk.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.8/sounds/space_firk_space.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.8/sounds/vzdoh.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.8/sounds/vzdoh2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.8/sounds/vzdoh3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.8/sounds/vzdoh4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.8/sourcelib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.8/sourcelib/delete_spaces_in_sound.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.8/sourcelib/net.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.8/sourcelib/normalize_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.8/sourcelib/sounds.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/experiments.py" beforeDir="false" afterPath="$PROJECT_DIR$/train/experiments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/train/network_config_frst.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/train/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/train/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/space/rec (1).wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/space/rec (2).wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/space/rec (3).wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/space/rec (4).wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/space/rec (5).wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/space/rec (6).wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/space/rec (7).wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/space/space(1).wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/space/space(10).wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/space/space(10)2.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/space/space(11).wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/space/space(11)2.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/space/space(12).wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/space/space(12)2.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/space/space(13)2.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/space/space(2).wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/space/space(3).wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/space/space(4).wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/space/space(5).wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/space/space(6).wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/space/space(7).wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/space/space(7)2.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/space/space(8).wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/space/space(8)2.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/space/space(9).wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sounds/train_sounds/space/space(9)2.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/sourcelib/sounds.py" beforeDir="false" afterPath="$PROJECT_DIR$/train/sourcelib/sounds.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,47 +79,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/work/0.0.7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/work/0.0.8" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\work\0.0.8" />
       <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\work\0.0.7" />
       <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\train\sounds\train_sounds\space" />
       <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\work\0.0.6" />
       <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\work\0.0.6\sourcelib" />
-      <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\train\sounds\train_sounds\hmm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\work\0.0.8\sounds" />
       <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\train\sounds\train_sounds\other" />
       <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\work\0.0.7\sounds" />
       <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\train\sounds\train_sounds\space" />
       <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\work\0.0.6\sounds" />
-      <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\work\0.0.6" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="experiments" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="NeuralSounds" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train/experiments.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.main (2)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="NeuralSounds" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="NeuralSounds" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -243,11 +128,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/work/0.0.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/work/0.0.8" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work/0.0.6/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work/0.0.8/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,7 +162,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sounds" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="network_config_frst" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="NeuralSounds" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -285,11 +170,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train/sourcelib" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train/sourcelib/sounds.py" />
+      <option name="SCRIPT_NAME" value="C:\Program Files\JetBrains\projects\NeuralSounds\train\network_config_frst.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="network_config_scnd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NeuralSounds" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/work/0.0.8" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work/0.0.8/network_config_scnd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -300,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.network_config_scnd" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.experiments" />
-        <item itemvalue="Python.sounds" />
-        <item itemvalue="Python.main (3)" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.network_config_frst" />
       </list>
     </recent_temporary>
   </component>
@@ -480,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604658669152</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Added new network. Added other">
+      <created>1605355039501</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1605355039501</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -518,7 +431,8 @@
     <MESSAGE value="Delete &quot;dd&quot;" />
     <MESSAGE value="Added new sounds, and new algorithm tratment sound" />
     <MESSAGE value="Added new network 0.0.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new network 0.0.6" />
+    <MESSAGE value="Added new network. Added other" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new network. Added other" />
   </component>
   <component name="WindowStateProjectService">
     <state x="769" y="370" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604842419729">
@@ -535,39 +449,39 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="669" y="135" key="#test_(1)/0.0.1920.1080@0.0.1920.1080" timestamp="1601790725109" />
-    <state x="739" y="294" key="FileChooserDialogImpl" timestamp="1605264016134">
+    <state x="739" y="294" key="FileChooserDialogImpl" timestamp="1605368112517">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="739" y="294" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601709212293" />
-    <state x="739" y="294" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1605264016134" />
+    <state x="739" y="294" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1605368112517" />
     <state x="739" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1604908794929" />
-    <state width="1898" height="346" key="GridCell.Tab.0.bottom" timestamp="1605353979389">
+    <state width="1898" height="326" key="GridCell.Tab.0.bottom" timestamp="1605367914191">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1898" height="332" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601824250330" />
     <state width="1258" height="317" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1280.1024@1920.0.1280.1024" timestamp="1601215549566" />
-    <state width="1898" height="346" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1605353979389" />
+    <state width="1898" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1605367914191" />
     <state width="1898" height="350" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1604908654522" />
-    <state width="1898" height="346" key="GridCell.Tab.0.center" timestamp="1605353979389">
+    <state width="1898" height="326" key="GridCell.Tab.0.center" timestamp="1605367914191">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1898" height="332" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601824250330" />
     <state width="1258" height="317" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1280.1024@1920.0.1280.1024" timestamp="1601215549565" />
-    <state width="1898" height="346" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1605353979389" />
+    <state width="1898" height="326" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1605367914191" />
     <state width="1898" height="350" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1604908654522" />
-    <state width="1898" height="346" key="GridCell.Tab.0.left" timestamp="1605353979389">
+    <state width="1898" height="326" key="GridCell.Tab.0.left" timestamp="1605367914191">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1898" height="332" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601824250330" />
     <state width="1258" height="317" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1280.1024@1920.0.1280.1024" timestamp="1601215549565" />
-    <state width="1898" height="346" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1605353979389" />
+    <state width="1898" height="326" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1605367914191" />
     <state width="1898" height="350" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1604908654522" />
-    <state width="1898" height="346" key="GridCell.Tab.0.right" timestamp="1605353979389">
+    <state width="1898" height="326" key="GridCell.Tab.0.right" timestamp="1605367914191">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1898" height="332" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601824250330" />
     <state width="1258" height="317" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1280.1024@1920.0.1280.1024" timestamp="1601215549565" />
-    <state width="1898" height="346" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1605353979389" />
+    <state width="1898" height="326" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1605367914191" />
     <state width="1898" height="350" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1604908654522" />
     <state x="461" y="184" key="SettingsEditor" timestamp="1601189163383">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -578,10 +492,11 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1601790927401" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1604659615576">
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1605355183482">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601737344285" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1605355183482" />
     <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1604659615576" />
     <state x="566" y="150" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602582759473">
       <screen x="0" y="0" width="1920" height="1080" />

@@ -1,0 +1,30 @@
+this net work by myself features in sound.
+This net use 2 neural networks
+"""
+176 input neurals
+o -.-.-.-\
+o -.-.-.-.-\
+o -.-.-.-.- ---> firk
+o -.-.-.-.- ---> hmm
+o -.-.-.-.- ---> space
+o -.-.-.-.-/
+o -.-.-.-/
+.
+.
+.
+
+32 input neurals
+o -.-.-.-\
+o -.-.-.- ---> firk
+o -.-.-.- ---> hmm
+o -.-.-.- ---> space
+o -.-.-.- ---> other
+o -.-.-.-/
+.
+.
+.
+"""
+
+
+In this version i try to add other.
+My idea is if in sound is ~random firk, hmms and spaces this is other
