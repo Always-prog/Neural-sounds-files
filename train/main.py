@@ -37,35 +37,35 @@ def get_result(array_result: list):
     return arr_i[len(arr_i)-1][0]
 
 
-first_network = Network([176,5000,2000,1000,100,3],activate="Tanh",optimizer_lr=0.001)#this network is for get features in sound
-first_network.load("frst")
+first_network = Network([2232,5000,2000,1000,100,3],activate="Tanh",optimizer_lr=0.001)#this network is for get features in sound
 second_network = Network([32,800,200,100,50,3],activate="Tanh",optimizer_lr=0.01)#this network is for get sound name by feaures first network
 resizer = lists()
-for repeat in range(50):
+for repeat in range(70):
     for sounds_dict in net_config["training"]["train_data"]:
         snd,sr = librosa.load(sounds_dict["path"])
         sounds = split_sound(snd, count_split=2000)
-        if key("ctrl+s"):
-            second_network.save("scnd")
-            print(f"SAVE not of {repeat} epox")
+
         if not(sounds):
             continue
+        if key("ctrl+s"):
+            first_network.save("frst_70")
+            print("save")
         outputs = []
         for sound in sounds:
-            output = first_network.forward(
-                inputs=torch.FloatTensor(tratment_sound(sound=sound)))
+            output = first_network.training_net(
+                inputs=torch.FloatTensor(tratment_sound(sound=sound)), must_outputs=torch.FloatTensor(sounds_dict["must_output"]))
             outputs.append(output)
 
-        output = second_network.training_net(inputs=torch.FloatTensor(resizer.resize(lst=get_array_from_str([make_result(i) for i in outputs]),resize_to=32)),
-                                             must_outputs=torch.FloatTensor(sounds_dict["must_output"]))
+       # output = second_network.forward(inputs=torch.FloatTensor(resizer.resize(lst=get_array_from_str([make_result(i) for i in outputs]),resize_to=32)),)
 
-        print("----|",sounds_dict["name"],"|----")
-        print(make_result(output))
-        print("- - - - - - - - - - - - - - - - - ")
-second_network.save("scnd")
+        print("=======",sounds_dict["name"],"=======")
+        for i in outputs:
+            print(make_result(i))
+
+       # print(f"- - - - - - - - {make_result(output)} - - - - - - - -")
+first_network.save("frst_70")
 plt.plot(first_network.errors)
 plt.show()
-
 
 
 for sounds_dict in net_config["test"]["test_data"]:

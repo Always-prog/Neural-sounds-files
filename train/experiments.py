@@ -8,22 +8,12 @@ from collections import Counter
 from config import net_config
 from scipy import stats
 
-def tratment_sound(sound: bytes,sr):
-    ff_list = []
 
-    chroma_stft_feature = librosa.feature.chroma_stft(sound)
-    mfcc_feature = librosa.feature.mfcc(sound)
-    chroma_cqt_feature = librosa.feature.chroma_cqt(sound)
-    for stft in chroma_stft_feature:
-        for stft2 in stft:
-            ff_list.append(stft2)
-    for mfcc in mfcc_feature:
-        for mfcc2 in mfcc:
-            ff_list.append(mfcc2)
-    for cqt in chroma_cqt_feature:
-        for cqt2 in cqt:
-            ff_list.append(cqt2)
-    return ff_list
+def tratment_sound(sound: bytes):
+    stft = librosa.stft(sound)
+    db_to_amplitude = librosa.db_to_amplitude(sound)
+    return db_to_amplitude
+
 
 
 def split_sound(sound,count_split: int = 500):
@@ -62,22 +52,24 @@ def get_result(array_result: list):
             arr_i[i-1],arr_i[i] = arr_i[i],arr_i[i-1]
     return arr_i[len(arr_i)-1][0]
 
-
+from os import listdir
 first_network = Network([72,5000,2000,1000,100,3],activate="Tanh",optimizer_lr=0.0013)#this network is for get features in sound
 second_network = Network([16,400,200,100,50,3],activate="Tanh",optimizer_lr=0.001)#this network is for get sound name by feaures first network
+
 resizer = lists()
 for repeat in range(1):
     for sounds_dict in net_config["training"]["train_data"]:
-        snd_bytes,sr = librosa.load(sounds_dict["path"])
-        sounds = split_sound(snd_bytes,count_split=1000)
-        if not(sounds):
-            continue
-        outputs = []
-        for sound in sounds:
-            #print(tratment_sound(sound=sound, sr=sr))
-            plt.plot(tratment_sound(sound=sound,sr=sr))
-            plt.xlabel(sounds_dict["name"])
-            plt.show()
+        if sounds_dict["name"] == "space":
+            snd_bytes,sr = librosa.load(sounds_dict["path"])
+            sounds = split_sound(snd_bytes,count_split=1000)
+            if not(sounds):
+                continue
+            outputs = []
+            for sound in sounds:
+                #print(tratment_sound(sound=sound, sr=sr))
+                plt.plot(tratment_sound(sound=sound))
+                plt.xlabel(sounds_dict["name"])
+                plt.show()
 
 
 

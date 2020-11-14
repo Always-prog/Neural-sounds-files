@@ -31,6 +31,14 @@ def tratment_sound(sound: bytes):
     chroma_stft_feature = librosa.feature.chroma_stft(sound)
     mfcc_feature = librosa.feature.mfcc(sound)
     chroma_cqt_feature = librosa.feature.chroma_cqt(sound)
+    rms_feature = librosa.feature.spectral_contrast(sound)
+    spectral_contrast_feature = librosa.feature.spectral_contrast(sound)
+    db_to_amplitude_feature = librosa.db_to_amplitude(sound)
+
+    for db_to_amplitude in db_to_amplitude_feature:
+        ff_list.append(db_to_amplitude)
+
+
     for stft in chroma_stft_feature:
         for stft2 in stft:
             ff_list.append(stft2)
@@ -40,5 +48,11 @@ def tratment_sound(sound: bytes):
     for cqt in chroma_cqt_feature:
         for cqt2 in cqt:
             ff_list.append(cqt2)
-    return ff_list
+    for rms in rms_feature:
+        for rms2 in rms:
+            ff_list.append(rms2)
+    for spectral_contrast in spectral_contrast_feature:
+        for spectral_contrast2 in spectral_contrast:
+            ff_list.append(spectral_contrast2)
 
+    return ff_list
