@@ -19,78 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f336095-4352-4144-8746-f7b845135239" name="Default Changelist" comment="Network 0.0.8">
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/golos-zamestitelya-po-vospitatelnoy-rabote-2373 (1).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/golos-zamestitelya-po-vospitatelnoy-rabote-2373 (10).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/golos-zamestitelya-po-vospitatelnoy-rabote-2373 (11).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/golos-zamestitelya-po-vospitatelnoy-rabote-2373 (12).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/golos-zamestitelya-po-vospitatelnoy-rabote-2373 (13).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/golos-zamestitelya-po-vospitatelnoy-rabote-2373 (14).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/golos-zamestitelya-po-vospitatelnoy-rabote-2373 (15).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/golos-zamestitelya-po-vospitatelnoy-rabote-2373 (16).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/golos-zamestitelya-po-vospitatelnoy-rabote-2373 (17).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/golos-zamestitelya-po-vospitatelnoy-rabote-2373 (18).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/golos-zamestitelya-po-vospitatelnoy-rabote-2373 (19).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/golos-zamestitelya-po-vospitatelnoy-rabote-2373 (2).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/golos-zamestitelya-po-vospitatelnoy-rabote-2373 (20).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/golos-zamestitelya-po-vospitatelnoy-rabote-2373 (21).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/golos-zamestitelya-po-vospitatelnoy-rabote-2373 (22).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/golos-zamestitelya-po-vospitatelnoy-rabote-2373 (23).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/golos-zamestitelya-po-vospitatelnoy-rabote-2373 (24).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/golos-zamestitelya-po-vospitatelnoy-rabote-2373 (25).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/golos-zamestitelya-po-vospitatelnoy-rabote-2373 (26).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/golos-zamestitelya-po-vospitatelnoy-rabote-2373 (3).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/golos-zamestitelya-po-vospitatelnoy-rabote-2373 (4).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/golos-zamestitelya-po-vospitatelnoy-rabote-2373 (5).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/golos-zamestitelya-po-vospitatelnoy-rabote-2373 (6).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/golos-zamestitelya-po-vospitatelnoy-rabote-2373 (7).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/golos-zamestitelya-po-vospitatelnoy-rabote-2373 (8).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/golos-zamestitelya-po-vospitatelnoy-rabote-2373 (9).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/other (1).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/other (10).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/other (11).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/other (12).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/other (2).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/other (3).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/other (4).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/other (5).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/other (6).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/other (7).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/other (8).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/other (9).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/u-mashinista-ilyasova-zaplombirovalas-sim-karta-2380 (1).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/sounds/train_sounds/other/u-mashinista-ilyasova-zaplombirovalas-sim-karta-2380 (2).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.9/description.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.9/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.9/network_config_frst.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.9/network_config_scnd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.9/scnd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.9/sounds/firk.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.9/sounds/firk2.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.9/sounds/firk3.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.9/sounds/hmm.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.9/sounds/hmm2.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.9/sounds/hmm_space_firk.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.9/sounds/other.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.9/sounds/other2.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.9/sounds/space_firk.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.9/sounds/space_firk_space.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.9/sounds/vzdoh.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.9/sounds/vzdoh2.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.9/sounds/vzdoh3.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.9/sounds/vzdoh4.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.9/sourcelib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.9/sourcelib/delete_spaces_in_sound.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.9/sourcelib/net.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.9/sourcelib/normalize_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/0.0.9/sourcelib/sounds.py" afterDir="false" />
+    <list default="true" id="7f336095-4352-4144-8746-f7b845135239" name="Default Changelist" comment="Added 0.0.9.&#10;Added new other sounds">
+      <change afterPath="$PROJECT_DIR$/work/0.0.9/sounds/firk_hmm_space_other.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/0.0.9/sounds/other3.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/frst" beforeDir="false" afterPath="$PROJECT_DIR$/work/0.0.9/frst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/train/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/train/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/network_config_frst.py" beforeDir="false" afterPath="$PROJECT_DIR$/train/network_config_frst.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/network_config_scnd.py" beforeDir="false" afterPath="$PROJECT_DIR$/train/network_config_scnd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/scnd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/scnd_70" beforeDir="false" afterPath="$PROJECT_DIR$/train/scnd_70" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/0.0.9/frst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,8 +56,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\train\sounds\train_sounds\other" />
       <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\work\0.0.9\sounds" />
+      <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\train\sounds\train_sounds\other" />
       <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\work\0.0.8\sounds" />
       <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\work\0.0.7\sounds" />
       <recent name="C:\Program Files\JetBrains\projects\NeuralSounds\train\sounds\train_sounds\space" />
@@ -438,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605368255230</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Added 0.0.9.&#10;Added new other sounds">
+      <created>1605444783877</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1605444783877</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -478,7 +419,8 @@
     <MESSAGE value="Added new network 0.0.6" />
     <MESSAGE value="Added new network. Added other" />
     <MESSAGE value="Network 0.0.8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Network 0.0.8" />
+    <MESSAGE value="Added 0.0.9.&#10;Added new other sounds" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 0.0.9.&#10;Added new other sounds" />
   </component>
   <component name="WindowStateProjectService">
     <state x="769" y="370" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604842419729">
@@ -501,33 +443,33 @@
     <state x="739" y="294" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601709212293" />
     <state x="739" y="294" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1605368334980" />
     <state x="739" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1604908794929" />
-    <state width="1898" height="326" key="GridCell.Tab.0.bottom" timestamp="1605425787915">
+    <state width="1898" height="326" key="GridCell.Tab.0.bottom" timestamp="1605448846688">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1898" height="332" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601824250330" />
     <state width="1258" height="317" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1280.1024@1920.0.1280.1024" timestamp="1601215549566" />
-    <state width="1898" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1605425787915" />
+    <state width="1898" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1605448846688" />
     <state width="1898" height="350" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1604908654522" />
-    <state width="1898" height="326" key="GridCell.Tab.0.center" timestamp="1605425787915">
+    <state width="1898" height="326" key="GridCell.Tab.0.center" timestamp="1605448846688">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1898" height="332" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601824250330" />
     <state width="1258" height="317" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1280.1024@1920.0.1280.1024" timestamp="1601215549565" />
-    <state width="1898" height="326" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1605425787915" />
+    <state width="1898" height="326" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1605448846688" />
     <state width="1898" height="350" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1604908654522" />
-    <state width="1898" height="326" key="GridCell.Tab.0.left" timestamp="1605425787915">
+    <state width="1898" height="326" key="GridCell.Tab.0.left" timestamp="1605448846688">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1898" height="332" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601824250330" />
     <state width="1258" height="317" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1280.1024@1920.0.1280.1024" timestamp="1601215549565" />
-    <state width="1898" height="326" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1605425787915" />
+    <state width="1898" height="326" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1605448846688" />
     <state width="1898" height="350" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1604908654522" />
-    <state width="1898" height="326" key="GridCell.Tab.0.right" timestamp="1605425787915">
+    <state width="1898" height="326" key="GridCell.Tab.0.right" timestamp="1605448846688">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1898" height="332" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601824250330" />
     <state width="1258" height="317" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1280.1024@1920.0.1280.1024" timestamp="1601215549565" />
-    <state width="1898" height="326" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1605425787915" />
+    <state width="1898" height="326" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1605448846688" />
     <state width="1898" height="350" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1604908654522" />
     <state x="461" y="184" key="SettingsEditor" timestamp="1601189163383">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -538,11 +480,11 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1601790927401" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1605368260117">
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1605445086063">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1601737344285" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1605368260117" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1605445086063" />
     <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1604659615576" />
     <state x="566" y="150" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602582759473">
       <screen x="0" y="0" width="1920" height="1080" />
