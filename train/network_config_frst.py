@@ -10,47 +10,33 @@ net_config = {
             "firk": {
                 "name": "firk",
                 "paths": ["./sounds/train_sounds/firk/" + i for i in listdir("sounds/train_sounds/firk")],
-                "must_output": [0.0, 1.0, 0.0]
+                "must_output": [0.0, 1.0, 0.0,0.0]
             },
             "hmm": {
                 "name": "hmm",
                 "paths": ["./sounds/train_sounds/hmm/" + i for i in listdir("sounds/train_sounds/hmm")],
-                "must_output": [1.0, 0.0, 0.0]
+                "must_output": [1.0, 0.0, 0.0,0.0]
             },
             "space": {
                 "name": "space",
                 "paths": ["./sounds/train_sounds/space/" + i for i in listdir("sounds/train_sounds/space")],
-                "must_output": [0.0, 0.0, 1.0]
+                "must_output": [0.0, 0.0, 1.0,0.0]
+            },
+            "other": {
+                "name": "other",
+                "paths": ["./sounds/train_sounds/other/" + i for i in listdir("sounds/train_sounds/other")],
+                "must_output": [0.0, 0.0, 0.0,1.0]
             }
         },
         "train_data": []
 
     },
-    "test": {
-        "sounds": {
-            "firk": {
-                "name": "firk",
-                "paths": ["./sounds/test_sounds/firk/" + i for i in listdir("sounds/test_sounds/firk")],
-                "must_output": [0.0, 1.0, 0.0]
-            },
-            "hmm": {
-                "name": "hmm",
-                "paths": ["./sounds/test_sounds/hmm/" + i for i in listdir("sounds/test_sounds/hmm")],
-                "must_output": [1.0, 0.0, 0.0]
-            },
-            "space": {
-                "name": "space",
-                "paths": ["./sounds/test_sounds/space/" + i for i in listdir("sounds/test_sounds/space")],
-                "must_output": [0.0, 0.0, 1.0]
-            }
-        },
-        "test_data": []
 
-    },
     "convert_str_to_float": {
-        "firk": 0.5,
+        "firk": 0.3,
         "hmm": 0.0,
-        "space": 1.0
+        "space": 0.6,
+        "other":1.0
     },
     "netout": {}
 }
@@ -80,43 +66,22 @@ net_config["training"]["train_data"] = \
     "must_output": net_config["training"]["sounds"]["space"]["must_output"]}
 
      for i in net_config["training"]["sounds"]["space"]["paths"]]
-][0]
+    + \
+    [{"path": i,
+      "name": net_config["training"]["sounds"]["other"]["name"],
+      "must_output": net_config["training"]["sounds"]["other"]["must_output"]}
+     for i in net_config["training"]["sounds"]["other"]["paths"]]
+    ][0]
 
 
 print("set network test data")
-net_config["test"]["test_data"] = \
-[
-    [{"path": i,
-     "name": net_config["test"]["sounds"]["firk"]["name"],
-     "must_output": net_config["test"]["sounds"]["firk"]["must_output"]}
-    for i in net_config["test"]["sounds"]["firk"]["paths"]]\
-                           +\
-    [{"path": i,
-     "name": net_config["test"]["sounds"]["hmm"]["name"],
-     "must_output": net_config["test"]["sounds"]["hmm"]["must_output"]}
-    for i in net_config["test"]["sounds"]["hmm"]["paths"]]\
-                          + \
-    [
-    {"path": i,
-    "name": net_config["test"]["sounds"]["space"]["name"],
-    "must_output": net_config["test"]["sounds"]["space"]["must_output"]}
-
-     for i in net_config["test"]["sounds"]["space"]["paths"]]
-][0]
 """Mix training data"""
 net_config["training"]["train_data"] = lists.connect_lists([
     [i for i in net_config["training"]["train_data"] if i["name"] == "firk"],
     [i for i in net_config["training"]["train_data"] if i["name"] == "hmm"],
     [i for i in net_config["training"]["train_data"] if i["name"] == "space"],
+    [i for i in net_config["training"]["train_data"] if i["name"] == "other"],
 ])
-
-"""Mix test data"""
-net_config["training"]["test_data"] = lists.connect_lists([
-    [i for i in net_config["test"]["test_data"] if i["name"] == "firk"],
-    [i for i in net_config["test"]["test_data"] if i["name"] == "hmm"],
-    [i for i in net_config["test"]["test_data"] if i["name"] == "space"],
-])
-
 
 print("Successfully upload config")
 

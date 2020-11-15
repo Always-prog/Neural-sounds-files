@@ -10,22 +10,17 @@ net_config = {
             "firk": {
                 "name": "firk",
                 "paths": ["./sounds/train_sounds/firk/" + i for i in listdir("sounds/train_sounds/firk")],
-                "must_output": [0.0, 1.0, 0.0,0.0]
+                "must_output": [0.0, 1.0, 0.0]
             },
             "hmm": {
                 "name": "hmm",
                 "paths": ["./sounds/train_sounds/hmm/" + i for i in listdir("sounds/train_sounds/hmm")],
-                "must_output": [1.0, 0.0, 0.0,0.0]
+                "must_output": [1.0, 0.0, 0.0]
             },
             "space": {
                 "name": "space",
                 "paths": ["./sounds/train_sounds/space/" + i for i in listdir("sounds/train_sounds/space")],
-                "must_output": [0.0, 0.0, 1.0,0.0]
-            },
-            "other": {
-                "name": "other",
-                "paths": ["./sounds/train_sounds/other/" + i for i in listdir("sounds/train_sounds/other")],
-                "must_output": [0.0, 0.0, 0.0,1.0]
+                "must_output": [0.0, 0.0, 1.0]
             }
         },
         "train_data": []
@@ -33,10 +28,9 @@ net_config = {
     },
 
     "convert_str_to_float": {
-        "firk": 0.3,
-        "hmm": 0.0,
-        "space": 0.6,
-        "other":1.0
+        "firk": 0.0,
+        "hmm": 0.5,
+        "space": 1.0
     },
     "netout": {}
 }
@@ -67,11 +61,6 @@ net_config["training"]["train_data"] = \
     "must_output": net_config["training"]["sounds"]["space"]["must_output"]}
 
      for i in net_config["training"]["sounds"]["space"]["paths"]]
-    + \
-    [{"path": i,
-      "name": net_config["training"]["sounds"]["other"]["name"],
-      "must_output": net_config["training"]["sounds"]["other"]["must_output"]}
-     for i in net_config["training"]["sounds"]["other"]["paths"]] \
     ][0]
 
 
@@ -80,7 +69,6 @@ net_config["training"]["train_data"] = lists.connect_lists([
     [i for i in net_config["training"]["train_data"] if i["name"] == "firk"],
     [i for i in net_config["training"]["train_data"] if i["name"] == "hmm"],
     [i for i in net_config["training"]["train_data"] if i["name"] == "space"],
-    [i for i in net_config["training"]["train_data"] if i["name"] == "other"],
 ])
 
 
