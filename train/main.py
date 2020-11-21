@@ -53,11 +53,11 @@ def get_result(array_result: list):
 
 
 first_network = Network([2232,5000,2000,1000,100,4],activate="Tanh",optimizer_lr=0.001)#this network is for get features in sound
-
+first_network.load("frst")
 second_network = Network([32,800,200,100,50,3],activate="Tanh",optimizer_lr=0.01)#this network is for get sound name by feaures first network
 resizer = lists()
 for repeat in range(150):
-    for sounds_dict in net_config_frst["training"]["train_data"]:
+    for sounds_dict in net_config_scnd["training"]["dirtly_data"]:
         snd = librosa.load(sounds_dict["path"])[0]
         sounds = split_sound(snd, count_split=2000)
         """CREATE SOUND MAP"""
@@ -65,20 +65,18 @@ for repeat in range(150):
         if not sounds:
             continue
         if key("ctrl+s"):
-            first_network.save("frst_other")
+            second_network.save("scnd_other"
+                               "")
             print(f"saved {repeat}")
         for sound in sounds:
-            output = first_network.training_net(
-                inputs=torch.FloatTensor(tratment_sound(sound=sound)), must_outputs=torch.FloatTensor(sounds_dict["must_output"]))
+            output = first_network.forward(
+                inputs=torch.FloatTensor(tratment_sound(sound=sound)))
             outputs.append(output)
-        # output = second_network.training_net(inputs=torch.FloatTensor(
-        #             resizer.resize(lst=get_array_from_str([make_result(i, net="frst") for i in outputs], net="scnd"), resize_to=32)),
-        #                                              must_outputs=torch.FloatTensor(sounds_dict["must_output"]))
-        print(f"----|{sounds_dict['name']}|----")
+        output = second_network.training_net(inputs=torch.FloatTensor(
+                    resizer.resize(lst=get_array_from_str([make_result(i, net="frst") for i in outputs], net="scnd"), resize_to=32)),
+                                                     must_outputs=torch.FloatTensor(sounds_dict["must_output"]))
+        print(f"|{sounds_dict['name']}| ------> {make_result(output)}")
         for i in outputs:
             print(make_result(i))
-
-first_network.save("frst_other")
-
 
 

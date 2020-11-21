@@ -77,11 +77,12 @@ def think(path: str):
         outputs.append(output)
     for i in outputs:
         print(make_result(i, net="frst"))
-    # output = second_network.forward(inputs=torch.FloatTensor(
-    #     resizer.resize(lst=get_array_from_str([make_result(i, net="frst") for i in outputs], net="scnd"),
-    #                    resize_to=32)))
+    output = second_network.forward(inputs=torch.FloatTensor(
+        resizer.resize(lst=get_array_from_str([make_result(i, net="frst") for i in outputs], net="scnd"),
+                       resize_to=32)))
 
-    return ""
+
+    return f"---{make_result(output)}---"
 print("Hi. I am bot to found emoties in the sound")
 while True:
     path = input("Write your path to .wav file: ")

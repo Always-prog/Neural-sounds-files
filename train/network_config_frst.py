@@ -83,5 +83,6 @@ net_config["training"]["train_data"] = lists.connect_lists([
     [i for i in net_config["training"]["train_data"] if i["name"] == "other"],
 ])
 
-print("Successfully upload config")
+print("\033[32mSuccessfully upload config")
 
+print('\033[39m')
